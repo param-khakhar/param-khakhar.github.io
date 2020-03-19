@@ -91,17 +91,24 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Param Khakhar
   picture:
-  email:
-  twitter:
+  email: paramkhakhar7@gmail.com
   links:
     - title:
       url:
       icon:
 
 # Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/param-khakhar
+    icon: fab fa-github-square
+  - title: Facebook
+    url: https://www.facebook.com/paramkhakhar
+    icon: fab fa-facebook-square
+  - title: Instagram
+    url: https://www.instagram.com/parm_khakhar/?hl=en
+    icon: fab fa-instagram
+  - title: LinkedIn 
+    url: https://www.linkedin.com/in/param-khakhar-a2a941182/
+    icon: fab fa-linkedin
