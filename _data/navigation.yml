@@ -5,7 +5,15 @@
 
 - title: Blog
   url: /blog/
-# - title: Posts
+
+- title: About
+  url: /about/
+
+- title: Search
+  url: /search/
+
+- title: CV
+  url: /cv/   
 #   url: /posts/
 # - title: Categories
 #   url: /categories/
