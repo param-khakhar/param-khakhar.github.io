@@ -92,12 +92,12 @@ defaults:
 # Site Author
 author:
   name: Param Khakhar
-  picture:
   email: paramkhakhar7@gmail.com
-  links:
-    - title:
-      url:
-      icon:
+# picture:
+#  links:
+#    - title:
+#      url:
+#      icon:
 
 # Footer Links
   - title: GitHub
