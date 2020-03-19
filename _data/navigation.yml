@@ -3,14 +3,14 @@
 - title: Home
   url: /
 - title: About
-   url: /about/
+   url: /
 - title: Blog
-  url: /blog/
+  url: /
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
 #   url: /recipes/
  - title: Search
-   url: /search/
+   url: /
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
