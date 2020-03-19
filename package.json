@@ -1,50 +1,41 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "5.0.8",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
-    },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+  "name": "jekyll-theme-so-simple",
+  "description": "A simple Jekyll theme for words and pictures.",
+  "version": "3.2.0",
+  "author": "Michael Rose",
+  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmistakes/so-simple-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmistakes/so-simple-theme/issues"
+  },
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal",
+    "responsive"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.0.0",
+    "uglify-js": "^3.4.9"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 9"
+  ],
+  "scripts": {
+    "uglify": "uglifyjs assets/js/plugins/lity.js assets/js/plugins/jquery.smooth-scroll.js assets/js/plugins/table-of-contents.js assets/js/main.js -c -m -o assets/js/main.min.js",
+    "add-banner": "node banner.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify && npm run add-banner"
+  },
+  "dependencies": {}
 }
