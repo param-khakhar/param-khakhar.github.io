@@ -17,8 +17,8 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Param Khakhar"
-description: "Opinions are personal. No offense intended."
+title: "Finding the signal"
+description: "from the noise"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://param-khakhar.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. 	"/images/logo.png"
