@@ -89,8 +89,8 @@ defaults:
       layout: post
       share: true
   - scope:
-      path: "/_data/recipes"
-      type: posts
+      path: "_recipes"
+      type: recipes
     values:
       layout: post
       share: true
