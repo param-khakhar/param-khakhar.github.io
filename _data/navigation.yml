@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
 - title: Blog
-  url: /
+  url: /_blog/
 
 - title: About
   url: /
