@@ -17,43 +17,44 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Finding the Signal"
-description: "In the Noise"
-baseurl: # the subpath of your site, e.g. "/blog"
-url: "https://param-khakhar.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. 	"/images/logo.png"
+title: "So Simple Development Site"
+description: "A simple Jekyll theme for words and pictures."
+baseurl: "/example" # the subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: true # reading time estimates, e.g. true
+read_time: true
 words_per_minute: 200
 mathjax:
-  enable: true # MathJax equations, e.g. true, false (default)
-  combo:  "tex-svg" # "tex-svg" (default), "tex-mml-chtml", etc. docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  "ams" # "none", "ams" (default), "all"
+  enable: true
+#  combo: "tex-mml-chtml"
+#  tags: "none"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: UA-NNNNNNNN-N # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: param-khakhar # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: mmistakes # site's Twitter username
 
 # Liquid
 liquid:
   error_mode: strict
 
 # Build settings
-permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
-# Search
-search_full_content: true # can have performance implications for large sites
+# Searchh
+search_full_content: false
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
@@ -77,40 +78,67 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
-  # Posts defaults
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
-      share: true
       comments: true
+      share: true
+  # Recipe defaults
   - scope:
-      path: "_about"
-      type: about
+      path: "_recipes"
+      type: recipes
     values:
-      layout: default
-      comments: false
-      share: false
+      layout: post
+      comments: true
+      share: true
 
 # Site Author
 author:
-  name: Param Khakhar
-  picture: 
-  email: 
-  twitter: 
-  links: 
-    - title: 
-      url:
-      icon:
+  name: Michael Rose
+  picture: /images/michael-rose-photo.jpg
+  email:
+  twitter: mmistakes
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/mmistakes
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://instagram.com/mmistakes
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+
+footer_links:
   - title: Github
     url: https://github.com/param-khakhar
-    icon: fab fa-github
+    icon: fas fa-github
   - title: LinkedIn
     url: https://www.linkedin.com/in/param-khakhar-a2a941182/
     icon: fab fa-linkedin
