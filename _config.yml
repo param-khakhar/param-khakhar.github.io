@@ -88,12 +88,6 @@ defaults:
     values:
       layout: post
       share: true
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      share: true
 
 # Site Author
 author:
