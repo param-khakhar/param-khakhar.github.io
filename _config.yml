@@ -86,10 +86,18 @@ defaults:
     values:
       layout: post
       share: true
+      comments: true
+  - scope:
+      path: "_about"
+      type: about
+    values:
+      layout: default
+      share: false
+      comments: false
 
 # Site Author
 author:
-  name: 
+  name: Param Khakhar
   picture: 
   email: 
   twitter: 
@@ -102,7 +110,7 @@ author:
 footer_links:
   - title: Github
     url: https://github.com/param-khakhar
-    icon: fas fa-github
+    icon: fab fa-github
   - title: LinkedIn
     url: https://www.linkedin.com/in/param-khakhar-a2a941182/
     icon: fab fa-linkedin
