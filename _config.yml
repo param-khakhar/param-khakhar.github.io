@@ -101,12 +101,30 @@ author:
   picture: 
   email: paramkhakhar7@gmail.com
   links:
-    - title:
-      url:
-      icon:
+    - title: Github
+      url: https://github.com/param-khakhar
+      icon: fab fa-github
+    - title: LinkedIn
+      url: https://www.instagram.com/parm_khakhar/?hl=en
+      icon: fab fa-linkedin
+    - title: Facebook
+      url: https://www.facebook.com/paramkhakhar
+      icon: fab fa-facebook-square
+    - title: Instagram
+      url: https://www.instagram.com/parm_khakhar/?hl=en 
+      icon: fab fa-instagram
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: Github
+    url: https://github.com/param-khakhar
+    icon: fab fa-github
+  - title: LinkedIn
+    url: https://www.instagram.com/parm_khakhar/?hl=en
+    icon: fab fa-linkedin
+  - title: Facebook
+    url: https://www.facebook.com/paramkhakhar
+    icon: fab fa-facebook-square
+  - title: Instagram
+    url: https://www.instagram.com/parm_khakhar/?hl=en
+    icon: fab fa-instagram
