@@ -5,9 +5,9 @@ layout: page
 
 Consider the following situation,
 
-You are looking for a hospital for the treatment of someone elderly in your family. There are two prominent choices available, Hospital A and Hospital B. For the last 1000 patients the patients which got treated from Hospital A had a survival rate of 90% whereas those which got treated from Hospital B had survival rate of 80%. So, Hospital A seems to be a clear winner right? Well it may not be the case.
+You are looking for a hospital for the treatment of someone elderly in your family. There are two prominent choices available, Hospital A and Hospital B. For the last 1000 patients those which got treated from Hospital A had a survival rate of 90% whereas those which got treated from Hospital B had survival rate of 80%. So, Hospital A seems to be a clear winner right? Well it may not be the case.
 
-One shouldn't ignore the fact that all the patients which arrive at the hospital do have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:
+One shouldn't ignore the fact that all the patients which arrive at the hospital do not have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:
 
 Hospital A - 900 in good health out of which 830 survived, 100 in poor health out of which 30 survived
 Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survived
