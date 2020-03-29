@@ -10,7 +10,7 @@ You are looking for a hospital for the treatment of someone elderly in your fami
 One shouldn't ignore the fact that all the patients which arrive at the hospital do not have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:
 
 - Hospital A - 900 in good health out of which 830 survived, 100 in poor health out of which 30 survived 
-- Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survivedfor 
+- Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survived 
 
 Interestingly, the survival rates of the patients having poor health is 52.5% in B and 30% in A. Amazingly, the survival rates of the patients having good health for Hospital A is 92.22 % whereas the same for Hospital B is 98.33%. Turns out that Hospital B is a clear winner and that too convincingly.
 
@@ -22,9 +22,11 @@ The above is an example of Simpson's paradox which occurs when the aggregated da
 
 Simpson's paradox isn't hypothetical. You can look at Mark Liddel's [video](https://www.youtube.com/watch?v=sxYrzzy3cq8 "Video") for more examples. 
 
-The above is one of the many things about statistics which I found very fascinating. By the way I am Param Khakhar, currently a Computer Science and Engineering Sophomore studying at the Indian Institution of Technology, Delhi. Being a CSE student, I have been introduced to several interesting areas where CS is used but personally, I like the usage of algorithms for the increased understanding of stats, in other words Data Science. Consequently, I do spend time learning stuff online apart from college academics. 
+The above is one of the many things about statistics which I found very fascinating. 
 
-I come from Rajkot, Gujarat, India. My hobbies include playing sports, watching soccer [Manchester is blue ;)], listening to music, dance etc. 
+By the way I am **Param Khakhar**, currently a Computer Science and Engineering Sophomore studying at the Indian Institution of Technology, Delhi. Being a CSE student, I have been introduced to several interesting areas where CS is used but personally, I like the usage of algorithms for the increased understanding of stats, in other words Data Science. Consequently, I do spend time learning stuff online apart from college academics. 
+
+I am from Rajkot, Gujarat, India. My hobbies include playing sports, watching soccer [Manchester is blue ;)], listening to music, dance etc. 
 
 <figure class="align-center">
   <a href="#"><img src="{{ '/images/DSC_0893.JPG' | absolute_url }}" alt=""></a>

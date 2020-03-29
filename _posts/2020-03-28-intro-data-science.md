@@ -1,18 +1,12 @@
 ---
-title: "Markup: Image Alignment"
-image: 
-  path: /images/so-simple-sample-image-5.jpg
-  thumbnail: /images/so-simple-sample-image-5-400x200.jpg
-  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
+title: "Data Science, What?"
 categories:
-  - Markup
+  - Intro
 tags:
-  - alignment
-  - captions
-  - content
-  - css
-  - image
-  - markup
+  - intro
+  - data science
+  - what
+
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
 
@@ -20,21 +14,7 @@ The best way to demonstrate the ebb and flow of the various image positioning op
 
 Assign classes with HTML:
 
-```html
-<img src="image.jpg" class="align-left" alt="">
-<img src="image.jpg" class="align-center" alt="">
-<img src="image.jpg" class="align-right" alt="">
-```
-
-Or use Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
-
-```markdown
-![left-aligned-image](image.jpg){: .align-left}
-![center-aligned-image](image.jpg){: .align-center}
-![right-aligned-image](image.jpg){: .align-right}
-```
-
-![image-center]({{ '/images/image-alignment-580x300.jpg' | absolute_url }}){: .align-center}
+![image-center]({{ '/images/p1I1.jpg' | absolute_url }}){: .align-center}
 
 The image should be **centered** with the `.align-center` class.
 
