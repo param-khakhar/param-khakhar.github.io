@@ -10,64 +10,36 @@ tags:
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
 
-The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let's get started.
-
-Assign classes with HTML:
+*Data Science* is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,
 
 ![image-center]({{ '/images/p1I1.jpg' | absolute_url }}){: .align-center}
 
-The image should be **centered** with the `.align-center` class.
+The stuff present in the background are the popular softwares and frameworks use to carry out different tasks. Tasks such as? It turns out that, the entire process of gaining insights from the data comprises of several smaller sub tasks such as (Detailed Info in the respective articles):
 
-![image-left]({{ '/images/image-alignment-150x150.jpg' | absolute_url }}){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+## Ask an interesting question
 
-As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
+Here the question refers the task which you want to achieve in the end. It could be either be prediction or estimation of a variable depending on the past trends, it could also be a particular business question which you want to find an answer of like consumer resoponse for a particular product, grouping of consumers for different products etc.
 
-And now for a **massively large image** --- it has **no alignment**.
+## Get the Data
 
-![no-alignment]({{ '/images/image-alignment-1200x4002.jpg' | absolute_url }})
+In order to derive insigts, you would certainly need the data in the first place! Well, you yourself might be collecting the data so that you would use it now. It may also be the case that you want to use the data collected by others and in that scenario you may scrape the data either from web sites, APIs, online repositories etc. While getting the data you also need have to take care about how the data is sampled, or if there are any privacy issues which you might unintentionally violate. Also you need to take care about the relevance of the data you are using. After getting the data you may also need to clean the data. Cleaning as in if there are partially filled entries you may want to remove them. If the datatypes in the data are inconsistent you'd correct it. 
 
-The image above, though `1200px` wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.
+## Exploratory Data Analysis
 
-![image-right]({{ '/images/image-alignment-300x200.jpg' | absolute_url }}){: .align-right}
+The most important task among all the tasks! Well EDA is getting all about getting a flavor of the data which you'd be using. EDA involves usage of visualization techniques in order to find out any anomalies or patterns in the data. You can do so by checking the different statistical measures such as mean, std, median etc. Certaing modeling techniques (to be discussed afterwards) also involve removal of highly correlated features (in other words those features which significantly depend on each other). The removal of correlated features and also the selection of relevant features to be used for modeling purposes.
 
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+## Model the data
 
-In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
+This is the task about which you may hear in various articles as "Machine Learning", "Neural Networks", "Regression", "Classifiers" etc. Now, Machine Learning is a sub-field of CS which comprises of algorithms which improve their performance with data. Here the performance refers to predicting a dependent variable given the values of several independent variables. Such algorithms are known as learning algorithms, this is because in a way the algorithm learns the relation between the dependent and independent variables. "Neural Networks", "Regression", "Classifiers" which you hear about. These learning algorithms when trained with data. The learning algorithms require data to update their hypothesis relation in order to make better predictions. This is known as the training of the model.
 
-And just when you thought we were done, we're going to do them all over again with captions!
+## Communicate and Visualize the results
 
-<figure class="align-center">
-  <a href="#"><img src="{{ '/images/image-alignment-580x300.jpg' | absolute_url }}" alt=""></a>
-  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
-</figure> 
+After you are done with the model forming part, you would certainly want to use it for the prediction of some other stuff. We need to make certain sanity checks whether the predictions made are sound enough or not. In this task you'd prefer to use certain visualization tools. So we use visualizations firstly for EDA and secondy for communicating the results.
 
-The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
+Finally the road map!
 
-<figure style="width: 150px" class="align-left">
-  <img src="{{ '/images/image-alignment-150x150.jpg' | absolute_url }}" alt="">
-  <figcaption>Itty-bitty caption.</figcaption>
-</figure> 
+![image-center]({{ '/images/DSMap.png' | absolute_url }}){: .align-center}
 
-The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+## References:
 
-As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
-
-And now for a massively large image with **no alignment**.
-
-<figure style="width: 1200px">
-  <img src="{{ '/images/image-alignment-1200x4002.jpg' | absolute_url }}" alt="">
-  <figcaption>Massive image comment for your eyeballs.</figcaption>
-</figure> 
-
-The figure element above has an inline style of `width: 1200px` set which should cause it to break outside of the normal content flow.
-
-<figure style="width: 300px" class="align-right">
-  <img src="{{ '/images/image-alignment-300x200.jpg' | absolute_url }}" alt="">
-  <figcaption>Feels good to be on the right.</figcaption>
-</figure> 
-
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
-
-In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
-
-And that's a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!
+1. [CS109 Data Science, Harvard University](https://cs109.github.io/2015/index.html "Lectures")
