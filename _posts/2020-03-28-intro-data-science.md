@@ -37,7 +37,7 @@ This is the task about which you may hear in various articles as "Machine Learni
 
 After you are done with the model forming part, you would certainly want to use it for the prediction of some other stuff. We need to make certain sanity checks whether the predictions made are sound enough or not. In this task you'd prefer to use certain visualization tools. So we use visualizations firstly for EDA and secondy for communicating the results.
 
-Well turns out that there's so much buzz in the media about this, and one of the reasons is for this is,
+Well turns out that there's so much buzz in the media about this, and one of the reasons for this is,
 
 > Data Scientist is the sexiest jobs of the 21st Century.
 >
