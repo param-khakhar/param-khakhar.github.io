@@ -9,7 +9,7 @@ tags:
 
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
-![image-center]({{ '/images/interview_meme.png' | https://datasciencedojo.com/community/jokes/ }}){: .align-center}
+![image-center]({{ '/images/interview_meme.png' | https://datasciencedojo.com/community/jokes/}}){: .align-center}
 
 *Data Science* is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,
 
@@ -41,18 +41,18 @@ Well turns out that there's so much buzz in the media about this, and one of the
 
 > Data Scientist is the sexiest jobs of the 21st Century.
 >
-> <footer><strong>[Harvard Business Review](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)</strong> &mdash;</footer>
+> <footer><strong>Harvard Business Review</strong> &mdash;</footer>
 
-Is it really the case? 
+You can check this [Harvard Business Review](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) article. Is it really the case? 
 
 > I am a data scientist…
 I don’t find my job sexy.
 I am 40% a vacuum, another 40% a janitor.
 And the last 20%… A fortune-teller.
 >
-> <footer><strong>[Jingles (Hong jing)](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845)</strong> &mdash;</footer>
+> <footer><strong>Jingles (Hong jing)</strong> &mdash;</footer>
 
-Well, there are opinions but, I really find it cool!
+You can check this article as well by [Jingles (Hong jing)](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845). Well, there are opinions but, I really find it cool!
 
 Finally the roadmap!
 
