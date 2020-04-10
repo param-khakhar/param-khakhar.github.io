@@ -9,7 +9,6 @@ tags:
 
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
-![image-center]({{ '/images/interview_meme.png' | https://datasciencedojo.com/community/jokes/}}){: .align-center}
 
 *Data Science* is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,
 
