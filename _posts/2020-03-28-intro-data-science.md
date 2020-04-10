@@ -10,7 +10,6 @@ tags:
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
 
-![image-center]({{ '/images/interview_meme.png' | https://datasciencedojo.com/community/jokes/}})
 
 *Data Science* is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,
 
@@ -37,6 +36,8 @@ This is the task about which you may hear in various articles as "Machine Learni
 ## Communicate and Visualize the results
 
 After you are done with the model forming part, you would certainly want to use it for the prediction of some other stuff. We need to make certain sanity checks whether the predictions made are sound enough or not. In this task you'd prefer to use certain visualization tools. So we use visualizations firstly for EDA and secondy for communicating the results.
+
+![image-center]({{ '/images/interview_meme.png' | https://datasciencedojo.com/community/jokes/}}){: .align-center}
 
 Well turns out that there's so much buzz in the media about this, and one of the reasons for this is,
 
