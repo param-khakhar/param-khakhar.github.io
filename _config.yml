@@ -48,7 +48,7 @@ markdown: kramdown
 feed:
   path: atom.xml
 
-Pagination - https://jekyllrb.com/docs/pagination/
+Pagination: https://jekyllrb.com/docs/pagination/
 paginate: 3
 paginate_path: /page:num/
 
