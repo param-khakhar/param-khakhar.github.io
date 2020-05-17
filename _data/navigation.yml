@@ -4,6 +4,10 @@
   url: /about/
 - title: Blog
   url: /posts/
+- title: Quotes
+  url: /quotes/
+- title: Reading Log
+  url: /books/ 
 - title: Categories
   url: /categories/
 - title: Search

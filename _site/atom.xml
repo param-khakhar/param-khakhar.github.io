@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-05-17T20:24:09+05:30</updated><id>/atom.xml</id><title type="html">Finding the Signal</title><subtitle>In the Noise.</subtitle><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><entry><title type="html">Statistics is indeed paradoxical!</title><link href="/statistics/paradox-stats/" rel="alternate" type="text/html" title="Statistics is indeed paradoxical!" /><published>2020-05-15T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/statistics/paradox-stats</id><content type="html" xml:base="/statistics/paradox-stats/">&lt;p&gt;&lt;img src=&quot;/images/fastest_growing.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider the following situation,&lt;/p&gt;
+
+&lt;p&gt;You are looking for a hospital for the treatment of someone elderly in your family. There are two prominent choices available, Hospital A and Hospital B. For the last 1000 patients those which got treated from Hospital A had a survival rate of 90% whereas those which got treated from Hospital B had survival rate of 80%. So, Hospital A seems to be a clear winner right? Well it may not be the case.&lt;/p&gt;
+
+&lt;p&gt;One shouldn’t ignore the fact that all the patients which arrive at the hospital do not have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hospital A - 900 in good health out of which 830 survived, 100 in poor health out of which 30 survived&lt;/li&gt;
+  &lt;li&gt;Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survived&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interestingly, the survival rates of the patients having poor health is 52.5% in B and 30% in A. Amazingly, the survival rates of the patients having good health for Hospital A is 92.22 % whereas the same for Hospital B is 98.33%. Turns out that Hospital B is a clear winner and that too convincingly.&lt;/p&gt;
+
+&lt;p&gt;The above is an example of Simpson’s paradox which occurs when the aggregated data hides a conditional variable, which is hidden additional factor that significantly influences results.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Statistics are persuasive. So much so that people, organizations, and whole countries base some of their most important decisions on organized data. But any set of statistics might have something lurking inside it that can turn the results completely upside down.&lt;/p&gt;
+
+  &lt;footer&gt;&lt;strong&gt;Mark Liddel&lt;/strong&gt; &amp;mdash; Ted-Ed, How statistics can be misleading&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Simpson’s paradox isn’t hypothetical. You can look at Mark Liddel’s &lt;a href=&quot;https://www.youtube.com/watch?v=sxYrzzy3cq8&quot; title=&quot;Video&quot;&gt;video&lt;/a&gt; for more examples.&lt;/p&gt;
+
+&lt;p&gt;The above is one of the many things about statistics which I found very fascinating.&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Paradox" /><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Why is statistics such a fascinating subject?</title><link href="/statistics/intro-stats/" rel="alternate" type="text/html" title="Why is statistics such a fascinating subject?" /><published>2020-05-14T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/statistics/intro-stats</id><content type="html" xml:base="/statistics/intro-stats/">&lt;p&gt;&lt;img src=&quot;/images/convincing%20xkcd.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I’d write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people. By the way these articles actually are my notes of the book “A Panorama of Statistics”. If you are even more interested, you better read the entire book.&lt;/p&gt;
+
+&lt;p&gt;Statistical thinking can certainly help you in making wiser decisions, understand and judge the trustworthyness of different personel, and help you become better citizens, consumers, voters, etc. Even in academics, most subjects involve the study of chance events and as a result you need to know the knowledge of statistics. So even it’d help you become better academicians!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;being a statistician [means] you get to play in everyone’s backyard.&lt;/p&gt;
+
+  &lt;footer&gt;&lt;strong&gt;[John Turkey]()&lt;/strong&gt; &amp;mdash;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In order to better understand the process of statistical analysis, suppose that you yourself are a statistician at a company and you have collected data for the number of employees that are absent on a given day in a company. You have collected the daily records for over 30 weeks. Now probably you would look for some patterns and even before that wonder what patterns might even exist. A simple organization such as grouping the number of absentees by days of the week may give you some insights. Doing that you notice that Mondays and Fridays are the days which have higher number of employees absent then the other days on average and also you can group the days of the week in two with Monday and Friday in one and the rest all weekdays in the other. Creating different summaries of the data is known as &lt;strong&gt;statistical description&lt;/strong&gt;. You may also use certain visualization techniques in order to discover some pattern.&lt;/p&gt;
+
+&lt;p&gt;Other than methods used for statistical description, there are also methods which the statisticians can use in order to generalize the detected patterns in a wider setting. This is known as &lt;strong&gt;statistical inference&lt;/strong&gt;. Now what makes this valueable is that this comes with an objective measure of the &lt;em&gt;likelihood&lt;/em&gt; that it is correct. However, we can never by sure that a generalization is correct, because uncertainity is so pervasive in the real world.&lt;/p&gt;
+
+&lt;p&gt;Now returning to your original task, your hypothesis of higher absence rates on Monday and Fridays can statistically tested and we can also obtain the uncertainity of it being correct. The alternate hypothesis would then be that the data obtained is just by chance and no such concrete generalization exists. Interestingly, the wider setting in the generalization can also refer to future and in a way we can predict future! (with some uncertainity). If your hypothesis turns out to be correct you can certainly notify the board and go home.&lt;/p&gt;
+
+&lt;p&gt;Now, all the above stuff may seem to be paradoxical as what are the rules which you use to make predictions about the future given the uncertainities of the world. The thing is that statistics involves logic rules which are different from the traditional mathematics. Essentially, &lt;em&gt;statistical description&lt;/em&gt; and &lt;em&gt;statistical inference&lt;/em&gt; are the workday roles of statistics.&lt;/p&gt;
+
+&lt;p&gt;There are several other byways, some of which are also aren’t discussed in the curriculum such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paradoxes of probability and statistics&lt;/li&gt;
+  &lt;li&gt;Problems of using standard statistical techniques in non-standard situations.&lt;/li&gt;
+  &lt;li&gt;Social Impact of Statistics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-statistics-is-different-from-mathematics&quot;&gt;How Statistics is different from Mathematics?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Turns out that statisticians solve the problem in a real life setting in contrast to mathematicians. Mathematical problems, abstracts out from all the uncertainity and fthen proceeds to report a unique solution. However, when we incorporate chances to play their role, the solution derived from maths is simply an approximation from the true value. Statisticians also calculate an answer and that too is an approximation but with the answer, a statistician also reports an uncertainity. Thus, the answer would be good only if the uncertainity is less.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mathematicians also need data and they plug it in some general theorem and hence obtain the result. However, statisticians proceed the other way round. They are given a particular sample of information (from the entire population) and their job is to estimate the population from the obtained sample. Thus, for mathematicians data refers to the values of non-random variables whereas for statisticians, data refers to the values of random variables. Consequently, statisticians would have to take care about erroneous data which might be present in the example which they have.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;trivia&quot;&gt;Trivia&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Consider 3 cities A,B and C. The annual average temperatures (in degree Celsius) are 11.7, 25.2 and 27 respectively. Can we infer from this information that B is twice as hot as A in a year? Also would it be correct to say that B and C have similar temperatures throughout the year?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, No. The thing is we can’t and we shouldn’t limit ourselves to the comparisons of the annual means. It may turn out that during some months B is slightly hotter than A but that trend is not preserved throughout the year. Also it might turn out that B and C have significantly different temperatures throughout a particular month.&lt;/p&gt;
+
+&lt;p&gt;It often turns out that the byways are often more interesting then the stuff discussed in the curriculum, so stay tuned.&lt;/p&gt;
+
+&lt;p&gt;Image&lt;/p&gt;
+
+&lt;h1 id=&quot;references&quot;&gt;References:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A Panorama of Statistics&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Statistics" /><summary type="html"></summary></entry><entry><title type="html">Data Science, What?</title><link href="/data%20science/intro-data-science/" rel="alternate" type="text/html" title="Data Science, What?" /><published>2020-03-28T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/data%20science/intro-data-science</id><content type="html" xml:base="/data%20science/intro-data-science/">&lt;p&gt;&lt;img src=&quot;/images/p1I1.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Data Science&lt;/em&gt; is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,&lt;/p&gt;
+
+&lt;p&gt;The stuff present in the background are the popular softwares and frameworks use to carry out different tasks. Tasks such as? It turns out that, the entire process of gaining insights from the data comprises of several smaller sub tasks such as (Detailed Info in the respective articles):&lt;/p&gt;
+
+&lt;h2 id=&quot;ask-an-interesting-question&quot;&gt;Ask an interesting question&lt;/h2&gt;
+
+&lt;p&gt;Here the question refers the task which you want to achieve in the end. It could be either be prediction or estimation of a variable depending on the past trends, it could also be a particular business question which you want to find an answer of like consumer resoponse for a particular product, grouping of consumers for different products etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-the-data&quot;&gt;Get the Data&lt;/h2&gt;
+
+&lt;p&gt;In order to derive insigts, you would certainly need the data in the first place! Well, you yourself might be collecting the data so that you would use it now. It may also be the case that you want to use the data collected by others and in that scenario you may scrape the data either from web sites, APIs, online repositories etc. While getting the data you also need have to take care about how the data is sampled, or if there are any privacy issues which you might unintentionally violate. Also you need to take care about the relevance of the data you are using. After getting the data you may also need to clean the data. Cleaning as in if there are partially filled entries you may want to remove them. If the datatypes in the data are inconsistent you’d correct it.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploratory-data-analysis&quot;&gt;Exploratory Data Analysis&lt;/h2&gt;
+
+&lt;p&gt;The most important task among all the tasks! Well EDA is getting all about getting a flavor of the data which you’d be using. EDA involves usage of visualization techniques in order to find out any anomalies or patterns in the data. You can do so by checking the different statistical measures such as mean, std, median etc. Certaing modeling techniques (to be discussed afterwards) also involve removal of highly correlated features (in other words those features which significantly depend on each other). The removal of correlated features and also the selection of relevant features to be used for modeling purposes.&lt;/p&gt;
+
+&lt;h2 id=&quot;model-the-data&quot;&gt;Model the data&lt;/h2&gt;
+
+&lt;p&gt;This is the task about which you may hear in various articles as “Machine Learning”, “Neural Networks”, “Regression”, “Classifiers” etc. Now, Machine Learning is a sub-field of CS which comprises of algorithms which improve their performance with data. Here the performance may refer to predicting a dependent variable given the values of several independent variables, grouping the data based by finding certain common features, take a decision etc. Such algorithms are known as learning algorithms, this is because in a way the algorithm learns the relation between the dependent and independent variables. These learning algorithms when trained with data. The learning algorithms require data to update their hypothesis relation in order to make better predictions. This is known as the training of the model.&lt;/p&gt;
+
+&lt;h2 id=&quot;communicate-and-visualize-the-results&quot;&gt;Communicate and Visualize the results&lt;/h2&gt;
+
+&lt;p&gt;After you are done with the model forming part, you would certainly want to use it for the prediction of some other stuff. We need to make certain sanity checks whether the predictions made are sound enough or not. In this task you’d prefer to use certain visualization tools. So we use visualizations firstly for EDA and secondy for communicating the results.&lt;/p&gt;
+
+&lt;p&gt;Well turns out that there’s so much buzz in the media about this, and one of the reasons for this is,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Data Scientist is the sexiest jobs of the 21st Century.&lt;/p&gt;
+
+  &lt;footer&gt;&lt;strong&gt;Harvard Business Review&lt;/strong&gt; &amp;mdash;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can check this &lt;a href=&quot;https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century&quot;&gt;Harvard Business Review&lt;/a&gt; article. Is it really the case?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am a data scientist…
+I don’t find my job sexy.
+I am 40% a vacuum, another 40% a janitor.
+And the last 20%… A fortune-teller.&lt;/p&gt;
+
+  &lt;footer&gt;&lt;strong&gt;Jingles (Hong jing)&lt;/strong&gt; &amp;mdash;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can check this article as well by &lt;a href=&quot;https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845&quot;&gt;Jingles (Hong jing)&lt;/a&gt;. Well, there are opinions but, I really find it cool!&lt;/p&gt;
+
+&lt;p&gt;Finally the roadmap!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/DSMap.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs109.github.io/2015/index.html&quot; title=&quot;Lectures&quot;&gt;CS109 Data Science, Harvard University&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Data Science" /><category term="What" /><summary type="html"></summary></entry></feed>

@@ -1,19 +1,18 @@
 ---
 title: "Data Science, What?"
 categories:
-  - Intro
+  - Data Science
 tags:
-  - intro
-  - data science
-  - what
+  - Intro
+  - Data Science
+  - What
 
 last_modified_at: 2018-02-05T16:19:55-05:00
 ---
 
+![image-center]({{ '/images/p1I1.jpg' | absolute_url }}){: .align-center}
 
 *Data Science* is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,
-
-![image-center]({{ '/images/p1I1.jpg' | absolute_url }}){: .align-center}
 
 The stuff present in the background are the popular softwares and frameworks use to carry out different tasks. Tasks such as? It turns out that, the entire process of gaining insights from the data comprises of several smaller sub tasks such as (Detailed Info in the respective articles):
 
