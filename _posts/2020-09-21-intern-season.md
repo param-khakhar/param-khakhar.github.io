@@ -51,4 +51,4 @@ This round is interviewed by the HR, wherein they check how you value their orga
 
 Happy Interviewing!
 
-All the points mentioned above, have been deduced from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!
+All the points mentioned above, have been assembled from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!
