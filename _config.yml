@@ -85,7 +85,7 @@ defaults:
       type: posts
     values:
       layout: post
-      share: false
+      share: true
   # Recipe defaults
   - scope:
       path: "_recipes"
@@ -105,14 +105,14 @@ author:
       url: https://github.com/param-khakhar
       icon: fab fa-github
     - title: LinkedIn
-      url: https://www.instagram.com/parm_khakhar/?hl=en
+      url: https://www.linkedin.com/in/param-khakhar-a2a941182/
       icon: fab fa-linkedin
     - title: Facebook
       url: https://www.facebook.com/paramkhakhar
       icon: fab fa-facebook-square
-    - title: Instagram
-      url: https://www.instagram.com/parm_khakhar/?hl=en 
-      icon: fab fa-instagram
+    - title: Twitter
+      url: https://twitter.com/__deCrypt
+      icon: fab fa-twitter
 
 # Footer Links
 footer_links:
@@ -120,11 +120,11 @@ footer_links:
     url: https://github.com/param-khakhar
     icon: fab fa-github
   - title: LinkedIn
-    url: https://www.instagram.com/parm_khakhar/?hl=en
+    url: https://www.linkedin.com/in/param-khakhar-a2a941182/
     icon: fab fa-linkedin
   - title: Facebook
     url: https://www.facebook.com/paramkhakhar
     icon: fab fa-facebook-square
-  - title: Instagram
-    url: https://www.instagram.com/parm_khakhar/?hl=en
-    icon: fab fa-instagram
+  - title: Twitter
+    url: https://twitter.com/__deCrypt
+    icon: fab fa-twitter
