@@ -85,7 +85,7 @@ defaults:
       type: posts
     values:
       layout: post
-      share: true
+      share: false
   # Recipe defaults
   - scope:
       path: "_recipes"

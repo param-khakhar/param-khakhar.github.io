@@ -1,7 +1,9 @@
 ---
 title: "Intern Season!"
+description: My experience as an interviewee.
 categories:
   - Experience
+  - Interviews
 tags:
   - Interview Preparation
 
