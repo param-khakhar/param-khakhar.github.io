@@ -11,7 +11,7 @@ last_modified_at: 2018-02-05T16:19:55-05:00
 
 ![image-center]({{ '/images/unsupervised.png' | absolute_url }}){: .align-center}
 
-Having said that, I am interested to become a data scientist someday, I do learn stuff online in my free time. However, there are countless resources which you can get online, be it online courses, videos, podcasts, blogs etc which'd help you to learn stuff. In this article, I'd mention the resources which I used along with their concise description. This article is indeed a live one, and would get timely updates after completing new milestones :)
+Apart from my univesity curriculum, I do spend time learning stuff online in my free time. However, there are countless resources which you can get online, be it online courses, videos, podcasts, blogs etc which'd help you to learn stuff. In this article, I'd mention the resources which I used along with their concise description. This article is indeed a live one, and would get timely updates after completing new milestones :). The list mainly consists of the data science related stuff.
 
 ### Online Courses:-
 

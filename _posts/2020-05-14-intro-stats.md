@@ -11,13 +11,13 @@ last_modified_at: 2018-02-05T16:19:55-05:00
 
 ![image-center]({{ '/images/convincing xkcd.png' | absolute_url }}){: .align-center}
 
-The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I'd write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people. By the way these articles actually are my notes of the book "A Panorama of Statistics". If you are even more interested, you better read the entire book.
+The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I'd write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people.
 
 Statistical thinking can certainly help you in making wiser decisions, understand and judge the trustworthyness of different personel, and help you become better citizens, consumers, voters, etc. Even in academics, most subjects involve the study of chance events and as a result you need to know the knowledge of statistics. So even it'd help you become better academicians! 
 
-> being a statistician [means] you get to play in everyone’s backyard.
+> Being a statistician [means] you get to play in everyone’s backyard.
 >
-> <footer><strong>[John Turkey]()</strong> &mdash;</footer>
+> <footer><strong>John Turkey</strong></footer>
 
 In order to better understand the process of statistical analysis, suppose that you yourself are a statistician at a company and you have collected data for the number of employees that are absent on a given day in a company. You have collected the daily records for over 30 weeks. Now probably you would look for some patterns and even before that wonder what patterns might even exist. A simple organization such as grouping the number of absentees by days of the week may give you some insights. Doing that you notice that Mondays and Fridays are the days which have higher number of employees absent then the other days on average and also you can group the days of the week in two with Monday and Friday in one and the rest all weekdays in the other. Creating different summaries of the data is known as **statistical description**. You may also use certain visualization techniques in order to discover some pattern. 
 
@@ -47,9 +47,7 @@ Well, No. The thing is we can't and we shouldn't limit ourselves to the comparis
 
 It often turns out that the byways are often more interesting then the stuff discussed in the curriculum, so stay tuned.
 
-Image
 
-# References:
+# Reference
 
-- A Panorama of Statistics
-- 
+- A Panorama of Statistics 

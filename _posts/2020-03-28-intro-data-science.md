@@ -40,7 +40,7 @@ Well turns out that there's so much buzz in the media about this, and one of the
 
 > Data Scientist is the sexiest jobs of the 21st Century.
 >
-> <footer><strong>Harvard Business Review</strong> &mdash;</footer>
+> <footer><strong>Harvard Business Review</strong></footer>
 
 You can check this [Harvard Business Review](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) article. Is it really the case? 
 
@@ -49,7 +49,7 @@ I don’t find my job sexy.
 I am 40% a vacuum, another 40% a janitor.
 And the last 20%… A fortune-teller.
 >
-> <footer><strong>Jingles (Hong jing)</strong> &mdash;</footer>
+> <footer><strong>Jingles (Hong jing)</strong></footer>
 
 You can check this article as well by [Jingles (Hong jing)](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845). Well, there are opinions but, I really find it cool!
 
