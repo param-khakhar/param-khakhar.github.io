@@ -12,3 +12,7 @@ Here, I'd like to share some of the quotes which I encountered throughout my rea
 > What is the cost of lies? It's not that we'll mistake them for the truth. The real danger is that if we hear enough lies, then we no longer recogize the truth at all.
 >
 > <footer><strong>Valery Legasov</strong> &mdash; Character, in Chernobyl (by HBO)</footer>
+
+> Celebrate your efforts, rather than the results. 
+>
+> <footer><strong>Anonymous</strong></footer>
