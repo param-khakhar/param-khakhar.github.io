@@ -89,6 +89,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-paginate
+  jekyll-sitemap
   jekyll-theme-so-simple!
 
 BUNDLED WITH

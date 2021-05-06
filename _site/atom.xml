@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/atom.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-22T17:43:42+05:30</updated><id>/atom.xml</id><title type="html">Finding the Signal</title><subtitle>In the Noise.</subtitle><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><entry><title type="html">Intern Season!</title><link href="/experience/lockdown-covid/" rel="alternate" type="text/html" title="Intern Season!" /><published>2020-07-28T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/experience/lockdown-covid</id><content type="html" xml:base="/experience/lockdown-covid/">&lt;p&gt;&lt;img src=&quot;/images/interview.jpeg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-06T15:14:17+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Finding the Signal, in the Noise</title><subtitle>Opinions are Personal!</subtitle><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><entry><title type="html">What happens to your PC when you switch on the power button?</title><link href="http://localhost:4000/theory/operating%20system/boot/" rel="alternate" type="text/html" title="What happens to your PC when you switch on the power button?" /><published>2021-03-24T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/theory/operating%20system/boot</id><content type="html" xml:base="http://localhost:4000/theory/operating%20system/boot/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/fight.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever wondered what happens when you press the power button of your PC? Well, it does end up in a screen asking you for your credentials! But, what actually leads to this? Let’s find out!&lt;/p&gt;
+
+&lt;p&gt;We can divide this process into 6 main intermediate steps. These are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;BIOS&lt;/li&gt;
+  &lt;li&gt;Master Boot Record (MBR)&lt;/li&gt;
+  &lt;li&gt;GRUB&lt;/li&gt;
+  &lt;li&gt;Kernel&lt;/li&gt;
+  &lt;li&gt;Init&lt;/li&gt;
+  &lt;li&gt;Run Level&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What do these terms mean in the first place? Let’s find out that as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;bios&quot;&gt;BIOS&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;BIOS&lt;/strong&gt; stands for &lt;strong&gt;B&lt;/strong&gt;asic &lt;strong&gt;I&lt;/strong&gt;nput &lt;strong&gt;O&lt;/strong&gt;utput &lt;strong&gt;S&lt;/strong&gt;ystem, and it is a &lt;strong&gt;firmware&lt;/strong&gt;. Now, this is different from the usual hardware and software which you might have heard of. Firmware is a software which resides on a dedicated memory chip, which is close to the metal (hardware). Software is used for programs that reside on hard disks, and use the functionality of the Operating System, in order to interact with the hardware, but firmware on the other hand doesn’t need to do so. It directly accesses the hardware. An example of that would be your TV remote, which processes your inputs (button presses) to generate the corresponding infrared signals.&lt;/p&gt;
+
+&lt;p&gt;BIOS is one such firmware for our computer. It resides on a chip inside the computer’s &lt;strong&gt;motherboard&lt;/strong&gt;. A motherboard is a printed circuit board, which essentially connects all the computer hardware such as the RAM, hard drives, optical drives and the CPU. On pressing the power button, the BIOS runs what is known as &lt;strong&gt;POST&lt;/strong&gt;, which stands for &lt;strong&gt;P&lt;/strong&gt;ower &lt;strong&gt;O&lt;/strong&gt;n &lt;strong&gt;S&lt;/strong&gt;elf &lt;strong&gt;T&lt;/strong&gt;est. This is basically a check which is performed by the BIOS which ensures that whether all the hardware devices such as the monitor, keyboard, mouse along with storage devices, processor, memory,etc, are working correctly or not. If the test turns out to be unsuccessful, further steps don’t proceed, unless the problem is fixed. Doing so, the hardware kind of initializes the hardware for further use. It then proceeds to search and execute the bootloader.&lt;/p&gt;
+
+&lt;p&gt;In CS jargon, the word &lt;strong&gt;booting&lt;/strong&gt; is used to denote the process of starting the computer. The &lt;strong&gt;bootloader&lt;/strong&gt; is a program which is responsible for loading the Operating System itself in the RAM. The bootloader is present on what is known as a &lt;strong&gt;bootable device&lt;/strong&gt;, now this could be a floppy disk, USB, hard disk etc. A bootable device is one which contains a sector (512 byte sized division), whose last two bytes contain the &lt;strong&gt;boot signature&lt;/strong&gt;. This is &lt;strong&gt;0x55&lt;/strong&gt; and &lt;strong&gt;0xAA&lt;/strong&gt;, which are represented in hex. The decimal counterparts are &lt;strong&gt;85&lt;/strong&gt; and &lt;strong&gt;170&lt;/strong&gt;, respectively. Such a sector containing the boot signature is known as the &lt;strong&gt;boot sector&lt;/strong&gt;. However, in order for bootloader to execute, it needs to be loaded onto the memory initially and then executed. This work is done by the BIOS and the &lt;em&gt;Master Boot Record&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;master-boot-record&quot;&gt;Master Boot Record&lt;/h2&gt;
+
+&lt;p&gt;The Master Boot Record is a kind of boot sector which is the first sector of a disk. The BIOS loads the Master Boot Record from a disk. A particular setting of BIOS allows users to order the disks from which the MBR is to be loaded. Thus, the BIOS loads the MBR from the first device which contains the boot signature, as the boot signature may get corrupted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Master-Boot-Record.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The MBR comprises of three important components, which are:&lt;/p&gt;
+
+&lt;h3 id=&quot;partition-table&quot;&gt;Partition Table&lt;/h3&gt;
+
+&lt;p&gt;The partition table contains an index of upto 4 partitions of the disk. Note MBR, is a sector of a disk and it isn’t present on disks which aren’t partitioned (such as floppy disks). It occupies 64 bytes of space.&lt;/p&gt;
+
+&lt;h3 id=&quot;bootstrap-code&quot;&gt;Bootstrap Code&lt;/h3&gt;
+
+&lt;p&gt;The &lt;em&gt;Primary Boot Loader&lt;/em&gt;, it occupies 446 Bytes of space. Now, 446 Bytes of space is small, very small, in order to load the entire OS. With such constraints, the primary boot loader can only load the next (secondary) bootloader, and execute it. The secondary bootloader would be present in one of the four partitions, and&lt;/p&gt;
+
+&lt;h3 id=&quot;boot-signature&quot;&gt;Boot Signature:&lt;/h3&gt;
+
+&lt;p&gt;The famous 0x55AA, which takes 2 bytes and therefore, the&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Operating System" /><summary type="html"></summary></entry><entry><title type="html">Intern Season!</title><link href="http://localhost:4000/experience/interviews/intern-season/" rel="alternate" type="text/html" title="Intern Season!" /><published>2020-09-21T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/experience/interviews/intern-season</id><content type="html" xml:base="http://localhost:4000/experience/interviews/intern-season/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/interview.jpeg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, an article after a really really long time, reason being, I was taking exams, making submissions, giving demos, all with a compressed schedule, and after which there were the interviews for the summer internship 2021. Finally, things have settled (momentarily :P) and now the new semester would resume from 28th of September, but boy, I must say, this period was unprecedented (at least for me), and unanticipated as well. This article is mainly for the interview procedure for the internships and how should one prepare (or perhaps some of the mistakes which I did, which you shouldn’t do) in order to clear all the rounds.&lt;/p&gt;
 
@@ -37,7 +80,7 @@
   &lt;li&gt;It is indeed good to do some projects as well, but one thing which I noticed is that they would matter when you’ve cleared round 1, and performed satisfactorily in round 2-3. If these conditions aren’t satisfied, then projects won’t matter much imo. If there are two people under consideration after clearing the rounds, then the company would go with the candidate who has done relevant projects or rather the one with a higher GPA.&lt;/li&gt;
   &lt;li&gt;Another particular thing which you should practice is to precisely explaining the solution, verbally. This would matter as you’d verbally engage with the interviewers. You may get rejected for your inability to explain the anwer to your interviewer irrespective of the fact that you know the solution.&lt;/li&gt;
   &lt;li&gt;You should mention the time and space complexities of any algorithm which you explaing to your interviewer. Instead of directly jumping to think about the efficient/desired solution, you may choose to state the Brute Force solution (it’d help in case you aren’t able to formulate the efficient solution :P).&lt;/li&gt;
-  &lt;li&gt;It might be a case that instead of the final answer, the interviewer is interested in your thinking procedure, in other words the approach which you are using to solve the problem, and the steps which you are taking to reach to the solution. It is a good habit to let your interviewers no about the method which you are thinking and why.&lt;/li&gt;
+  &lt;li&gt;It might be a case that instead of the final answer, the interviewer is interested in your thinking procedure, in other words the approach which you are using to solve the problem, and the steps which you are taking to reach to the solution. It is a good habit to let your interviewers know about the method which you are thinking and why.&lt;/li&gt;
   &lt;li&gt;If you’re stuck, then you can ask for some hints i.e directions in which you should think for the solution.&lt;/li&gt;
   &lt;li&gt;Stay confident during the interview, be attentive, and have a good sleep. It’s okay to have a bad interview, but stressing out over it isn’t good. Well, after all it isn’t the end of the world or end of your opportunities! Learn from your experience and move on, I’d suggest.&lt;/li&gt;
   &lt;li&gt;You should know your CV inside out! Yes, you would be quizzed on it, and your inability to answer the questions on your projects could result in a bad impression. For projects you maybe asked on their motivation, challenges faced by you, and future improvisations.&lt;/li&gt;
@@ -45,9 +88,9 @@
 
 &lt;p&gt;Happy Interviewing!&lt;/p&gt;
 
-&lt;p&gt;All the points mentioned above, have been assembled from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Interview Preparation" /><summary type="html"></summary></entry><entry><title type="html">My Learning Track</title><link href="/data%20science/learn-data-science/" rel="alternate" type="text/html" title="My Learning Track" /><published>2020-06-08T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/data%20science/learn-data-science</id><content type="html" xml:base="/data%20science/learn-data-science/">&lt;p&gt;&lt;img src=&quot;/images/unsupervised.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;All the points mentioned above, have been assembled from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Interview Preparation" /><summary type="html"></summary></entry><entry><title type="html">My Learning Track</title><link href="http://localhost:4000/data%20science/learn-data-science/" rel="alternate" type="text/html" title="My Learning Track" /><published>2020-06-08T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/data%20science/learn-data-science</id><content type="html" xml:base="http://localhost:4000/data%20science/learn-data-science/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/unsupervised.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Apart from my univesity curriculum, I do spend time learning stuff online in my free time. However, there are countless resources which you can get online, be it online courses, videos, podcasts, blogs etc which’d help you to learn stuff. In this article, I’d mention the resources which I used along with their concise description. This article is indeed a live one, and would get timely updates after completing new milestones :). The list mainly consists of the data science related stuff.&lt;/p&gt;
+&lt;p&gt;Apart from my univesity curriculum, I do spend time learning stuff online in my free time. However, there are countless resources which you can get online, be it online courses, videos, podcasts, blogs etc which’d help you to learn stuff. In this article, I’d mention the resources which I used along with their concise description. This article is indeed a live one, and would get timely updates after completing new milestones :). As of now, the list mainly consists of the data science related stuff.&lt;/p&gt;
 
 &lt;h3 id=&quot;online-courses-&quot;&gt;Online Courses:-&lt;/h3&gt;
 
@@ -79,7 +122,7 @@ This is an amazing course, targeted for those who know how to use Machine Learni
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://towardsdatascience.com/&quot; title=&quot;Home Page&quot;&gt;Towards Data Science&lt;/a&gt;&lt;/strong&gt;: If you’re a newbie in this field and don’t understand any particular concept related to probability, statistic, machine learning, etc. this is the place where you’d most probably find a blog post related to that. The writers also write about new cool applications and what it feels to work in the industry.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://machinelearningmastery.com/&quot; title=&quot;Home Page&quot;&gt;Machine Learning Mastery - By Jason Brownlie Ph.D&lt;/a&gt;&lt;/strong&gt;: Here you’d find many relevant blog posts for Machine Learning.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kaggle.com/discussion&quot;&gt;Kaggle Discussion&lt;/a&gt;&lt;/strong&gt;: Kaggle organizes data science competitions but apart from that it has an excellent forum for discussing the advances in this area. You’d be able to learn new tricks and hacks from the experts and also interact with them.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Statistics is indeed paradoxical!</title><link href="/statistics/paradox-stats/" rel="alternate" type="text/html" title="Statistics is indeed paradoxical!" /><published>2020-05-15T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/statistics/paradox-stats</id><content type="html" xml:base="/statistics/paradox-stats/">&lt;p&gt;&lt;img src=&quot;/images/fastest_growing.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Statistics is indeed paradoxical!</title><link href="http://localhost:4000/statistics/paradox-stats/" rel="alternate" type="text/html" title="Statistics is indeed paradoxical!" /><published>2020-05-15T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/paradox-stats</id><content type="html" xml:base="http://localhost:4000/statistics/paradox-stats/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/fastest_growing.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Consider the following situation,&lt;/p&gt;
 
@@ -104,7 +147,7 @@ This is an amazing course, targeted for those who know how to use Machine Learni
 
 &lt;p&gt;Simpson’s paradox isn’t hypothetical. You can look at Mark Liddel’s &lt;a href=&quot;https://www.youtube.com/watch?v=sxYrzzy3cq8&quot; title=&quot;Video&quot;&gt;video&lt;/a&gt; for more examples.&lt;/p&gt;
 
-&lt;p&gt;The above is one of the many things about statistics which I found very fascinating.&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Paradox" /><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Why is statistics such a fascinating subject?</title><link href="/statistics/intro-stats/" rel="alternate" type="text/html" title="Why is statistics such a fascinating subject?" /><published>2020-05-14T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/statistics/intro-stats</id><content type="html" xml:base="/statistics/intro-stats/">&lt;p&gt;&lt;img src=&quot;/images/convincing%20xkcd.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The above is one of the many things about statistics which I found very fascinating.&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Paradox" /><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Why is statistics such a fascinating subject?</title><link href="http://localhost:4000/statistics/intro-stats/" rel="alternate" type="text/html" title="Why is statistics such a fascinating subject?" /><published>2020-05-14T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/intro-stats</id><content type="html" xml:base="http://localhost:4000/statistics/intro-stats/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/convincing%20xkcd.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I’d write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people.&lt;/p&gt;
 
@@ -155,59 +198,4 @@ This is an amazing course, targeted for those who know how to use Machine Learni
 
 &lt;ul&gt;
   &lt;li&gt;A Panorama of Statistics&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Statistics" /><summary type="html"></summary></entry><entry><title type="html">Data Science, What?</title><link href="/data%20science/intro-data-science/" rel="alternate" type="text/html" title="Data Science, What?" /><published>2020-03-28T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>/data%20science/intro-data-science</id><content type="html" xml:base="/data%20science/intro-data-science/">&lt;p&gt;&lt;img src=&quot;/images/p1I1.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Data Science&lt;/em&gt; is an inter-disciplinary field which is used to gain insights into data through computation, statistics and visualization. Inter-disciplinary as in,&lt;/p&gt;
-
-&lt;p&gt;The stuff present in the background are the popular softwares and frameworks use to carry out different tasks. Tasks such as? It turns out that, the entire process of gaining insights from the data comprises of several smaller sub tasks such as (Detailed Info in the respective articles):&lt;/p&gt;
-
-&lt;h2 id=&quot;ask-an-interesting-question&quot;&gt;Ask an interesting question&lt;/h2&gt;
-
-&lt;p&gt;Here the question refers the task which you want to achieve in the end. It could be either be prediction or estimation of a variable depending on the past trends, it could also be a particular business question which you want to find an answer of like consumer resoponse for a particular product, grouping of consumers for different products etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-the-data&quot;&gt;Get the Data&lt;/h2&gt;
-
-&lt;p&gt;In order to derive insigts, you would certainly need the data in the first place! Well, you yourself might be collecting the data so that you would use it now. It may also be the case that you want to use the data collected by others and in that scenario you may scrape the data either from web sites, APIs, online repositories etc. While getting the data you also need have to take care about how the data is sampled, or if there are any privacy issues which you might unintentionally violate. Also you need to take care about the relevance of the data you are using. After getting the data you may also need to clean the data. Cleaning as in if there are partially filled entries you may want to remove them. If the datatypes in the data are inconsistent you’d correct it.&lt;/p&gt;
-
-&lt;h2 id=&quot;exploratory-data-analysis&quot;&gt;Exploratory Data Analysis&lt;/h2&gt;
-
-&lt;p&gt;The most important task among all the tasks! Well EDA is getting all about getting a flavor of the data which you’d be using. EDA involves usage of visualization techniques in order to find out any anomalies or patterns in the data. You can do so by checking the different statistical measures such as mean, std, median etc. Certaing modeling techniques (to be discussed afterwards) also involve removal of highly correlated features (in other words those features which significantly depend on each other). The removal of correlated features and also the selection of relevant features to be used for modeling purposes.&lt;/p&gt;
-
-&lt;h2 id=&quot;model-the-data&quot;&gt;Model the data&lt;/h2&gt;
-
-&lt;p&gt;This is the task about which you may hear in various articles as “Machine Learning”, “Neural Networks”, “Regression”, “Classifiers” etc. Now, Machine Learning is a sub-field of CS which comprises of algorithms which improve their performance with data. Here the performance may refer to predicting a dependent variable given the values of several independent variables, grouping the data based by finding certain common features, take a decision etc. Such algorithms are known as learning algorithms, this is because in a way the algorithm learns the relation between the dependent and independent variables. These learning algorithms when trained with data. The learning algorithms require data to update their hypothesis relation in order to make better predictions. This is known as the training of the model.&lt;/p&gt;
-
-&lt;h2 id=&quot;communicate-and-visualize-the-results&quot;&gt;Communicate and Visualize the results&lt;/h2&gt;
-
-&lt;p&gt;After you are done with the model forming part, you would certainly want to use it for the prediction of some other stuff. We need to make certain sanity checks whether the predictions made are sound enough or not. In this task you’d prefer to use certain visualization tools. So we use visualizations firstly for EDA and secondy for communicating the results.&lt;/p&gt;
-
-&lt;p&gt;Well turns out that there’s so much buzz in the media about this, and one of the reasons for this is,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Data Scientist is the sexiest jobs of the 21st Century.&lt;/p&gt;
-
-  &lt;footer&gt;&lt;strong&gt;Harvard Business Review&lt;/strong&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can check this &lt;a href=&quot;https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century&quot;&gt;Harvard Business Review&lt;/a&gt; article. Is it really the case?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I am a data scientist…
-I don’t find my job sexy.
-I am 40% a vacuum, another 40% a janitor.
-And the last 20%… A fortune-teller.&lt;/p&gt;
-
-  &lt;footer&gt;&lt;strong&gt;Jingles (Hong jing)&lt;/strong&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can check this article as well by &lt;a href=&quot;https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845&quot;&gt;Jingles (Hong jing)&lt;/a&gt;. Well, there are opinions but, I really find it cool!&lt;/p&gt;
-
-&lt;p&gt;Finally the roadmap!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/DSMap.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cs109.github.io/2015/index.html&quot; title=&quot;Lectures&quot;&gt;CS109 Data Science, Harvard University&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Data Science" /><category term="What" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Statistics" /><summary type="html"></summary></entry></feed>
