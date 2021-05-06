@@ -1,4 +1,4 @@
-I"<p><img src="http://localhost:4000/images/fight.png" alt="image-center" class="align-center" /></p>
+I"<p><img src="http://localhost:4000/_site/images/fight.png" alt="image-center" class="align-center" /></p>
 
 <p>Have you ever wondered what happens when you press the power button of your PC? Well, it does end up in a screen asking you for your credentials! But, what actually leads to this? Let’s find out!</p>
 
@@ -27,7 +27,7 @@
 
 <p>The Master Boot Record is a kind of boot sector which is the first sector of a disk. The BIOS loads the Master Boot Record from a disk. A particular setting of BIOS allows users to order the disks from which the MBR is to be loaded. Thus, the BIOS loads the MBR from the first device which contains the boot signature, as the boot signature may get corrupted.</p>
 
-<p><img src="http://localhost:4000/images/Master-Boot-Record.png" alt="image-center" class="align-center" /></p>
+<p><img src="http://localhost:4000/_site/images/Master-Boot-Record.png" alt="image-center" class="align-center" /></p>
 
 <p>The MBR comprises of three important components, which are:</p>
 
