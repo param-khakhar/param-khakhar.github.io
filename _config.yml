@@ -18,7 +18,7 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Finding the Signal, in the Noise"
-description: "Param Khakhar"
+description: "Opinions are Personal!"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://param-khakhar.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
