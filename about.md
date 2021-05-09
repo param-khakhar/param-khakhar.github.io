@@ -1,9 +1,9 @@
 ---
-title: About
+title: Param Khakhar
 layout: page
 ---
 
-I am **Param Khakhar**, currently a Computer Science and Engineering Junior Undergrad studying at the Indian Institution of Technology, Delhi. Being a CSE student, I have been introduced to several interesting areas where CS is used but personally, I like designing real-world applications using algorithms and data structures. Other areas which I am interested but haven't explored much yet are finance, economics, history and biology.
+I am a Computer Science and Engineering Junior Undergrad currently studying at the Indian Institution of Technology, Delhi. Being a CSE student, I have been introduced to several interesting areas where CS is used but personally, I like designing real-world applications using algorithms and data structures. Other areas which I am interested but haven't explored much yet are finance, economics, history and biology.
 
 The content of the articles would mainly be my experiences and other things which I found very interesting. You may find some CS articles wherein, I would write some stuff which is complex for me, in simple words, as an aid for me and might be for others too. There are different personal and professional goals which I had set earlier. I was able to achieve some and wasn't able to do so with the others, however, in the process of achieving my goals I did make several mistakes but with perseverance I did make it to the finish line. It might turn out that there are others as well who are pursuing goals similar to mine. If not a generic overview, I can definitely tell others about the mistakes which I made, and help them prevent doing that. The scenario is also true vice versa where I am pursuing a particular goal and I do look out for experiences of others. Well, I think it's the purpose of existence of life, and kind of similar to evolution. 
 
