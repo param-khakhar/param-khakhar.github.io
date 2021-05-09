@@ -8,7 +8,7 @@ This is a live page and would contain my reviews of the books which I've read. P
 ### 2021
 - **Indulekha** by *O.Chandumenon*
 	- This one I read as a part of my Humanities Course, Rise of Novel, where in the main theme was to study the initial novel as new literary texts along with the factors that lead to it's rise. This was one of the first novels published in India, written around 1890s or so. 
-	- The main protagonist Indulekha, did receive an English education (British India) as opposed to other women around her and with her used to highlight the importance of English Education, especially for women. Interestingly, it was the first time that I got to know about the matrilineal society which used to exist in the Malabar region, before the British introduced measures against it. 
+	- The main protagonist Indulekha, did receive an English education (British India) as opposed to other women around her. Thus, there were intriguing exchanges between Indulekha and other family members of her. With Indulekha, the author highlighted the importance of English Education, especially for women. Interestingly, it was the first time that I got to know about the matrilineal society which used to exist in the Malabar region, before the British introduced measures against it. 
 
 ### 2020
 
