@@ -111,7 +111,7 @@ author:
       url: https://www.facebook.com/paramkhakhar
       icon: fab fa-facebook-square
     - title: Twitter
-      url: https://twitter.com/__deCrypt
+      url: https://twitter.com/parm_khakhar
       icon: fab fa-twitter
 
 # Footer Links
@@ -126,5 +126,5 @@ footer_links:
     url: https://www.facebook.com/paramkhakhar
     icon: fab fa-facebook-square
   - title: Twitter
-    url: https://twitter.com/__deCrypt
+    url: https://twitter.com/parm_khakhar
     icon: fab fa-twitter
