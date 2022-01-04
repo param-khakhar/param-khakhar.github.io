@@ -8,8 +8,8 @@ This is a live page and would contain my reviews of the books which I've read. P
 ### 2022
 
 - **Inside the Black Box** by *Rishi K Narang*
-- For anyone wanting to voyage the secretive world of computers participating in the financial markets, this should be their go-to book. 
-- It contains everything starting all the way from the science behind involved, the effects on markets, the criticisms (unfair!), and ending at the future prospects.
+	- For anyone wanting to voyage the secretive world of computers participating in the financial markets, this should be their go-to book. 
+	- It contains everything starting all the way from the science behind involved, the effects on markets, the criticisms (unfair!), and ending at the future prospects.
 
 ### 2021
 - **Indulekha** by *O.Chandumenon*
