@@ -14,6 +14,6 @@ Apart from watching Man City play, I do listen to music. I don't fancy any parti
 I do like to watch movies, mainly action, sci-fi and comedies but am also enjoying rom-coms and family drama lately. I am not a trained dancer but like to dance whenever there's an opportunity :D. I also like to travel and visit new places, and the aim is to cover as much as possible!
 
 <figure class="align-center">
-  <a href="#"><img src="{{ '/images/DSC_0893.JPG' | absolute_url }}" alt=""></a>
-  <figcaption>Me with my Grandpa</figcaption>
+  <a href="#"><img src="{{ '/images/IMG_20211227_133725.jpg' | absolute_url }}" alt=""></a>
+  <figcaption>Recent Me!</figcaption>
 </figure> 

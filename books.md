@@ -5,6 +5,12 @@ layout: page
 
 This is a live page and would contain my reviews of the books which I've read. Please DM me for other interesting books! I used to read books, when I was younger but discontinued due to other interests. However, the time at which this article is written resulted in resumption of this activity :P.
 
+### 2022
+
+- **Inside the Black Box** by *Rishi K Narang*
+- For anyone wanting to voyage the secretive world of computers participating in the financial markets, this should be their go-to book. 
+- It contains everything starting all the way from the science behind involved, the effects on markets, the criticisms (unfair!), and ending at the future prospects.
+
 ### 2021
 - **Indulekha** by *O.Chandumenon*
 	- This one I read as a part of my Humanities Course, Rise of Novel, where in the main theme was to study the initial novel as new literary texts along with the factors that lead to it's rise. This was one of the first novels published in India, written around 1890s or so. 
