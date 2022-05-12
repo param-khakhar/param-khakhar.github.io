@@ -1,5 +1,5 @@
 ---
-title: End of College Life - Learnings
+title: End of UG - Learnings
 description: 
 categories:
   - Life
