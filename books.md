@@ -7,11 +7,16 @@ This is a live page and would contain my reviews of the books which I've read. P
 
 ### 2022
 
+- **The Psychology of Money** by *Morgan Housel*
+	- An interesting read about the biases and how generally people end up thinking about money (incorrectly so).  
+	- There is a psychological influence on how markets and economy in general works, and people tend to neglect it. Definitely recommend to anyone who is personally supervising their investments, or planning to start off. 
+
 - **Inside the Black Box** by *Rishi K Narang*
 	- For anyone wanting to voyage the secretive world of computers participating in the financial markets, this should be their go-to book. 
 	- It contains everything starting all the way from the science behind involved, the effects on markets, the criticisms (unfair!), and ending at the future prospects.
 
 ### 2021
+
 - **Indulekha** by *O.Chandumenon*
 	- This one I read as a part of my Humanities Course, Rise of Novel, where in the main theme was to study the initial novel as new literary texts along with the factors that lead to it's rise. This was one of the first novels published in India, written around 1890s or so. 
 	- The main protagonist Indulekha, did receive an English education (British India) as opposed to other women around her. Thus, there were intriguing exchanges between Indulekha and other family members of her. With Indulekha, the author highlighted the importance of English Education, especially for women. Interestingly, it was the first time that I got to know about the matrilineal society which used to exist in the Malabar region, before the British introduced measures against it. 
