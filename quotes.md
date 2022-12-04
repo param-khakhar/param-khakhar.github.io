@@ -7,7 +7,7 @@ Here, I'd like to share some of the quotes which I encountered throughout my rea
 
 > Use money to gain control over your time, because not having control of your time is such a powerful and universal drag on happiness. The ability to do what you want, when you want, with who you want, for as long as you want to, pays the highest dividend that exists in finance.
 >
-> <footer>The Psychology of Money, <strong></strong>Morgan Housel</footer>
+> <footer>The Psychology of Money, <strong>Morgan Housel</strong></footer>
 
 > Every individual is a puzzle of needs. Be the missing piece, and they'll give you everything.
 >
