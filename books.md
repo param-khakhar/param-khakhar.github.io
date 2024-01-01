@@ -3,7 +3,14 @@ title: Books
 layout: page
 ---
 
-This is a live page and would contain my reviews of the books which I've read. Please DM me for other interesting books! I used to read books, when I was younger but discontinued due to other interests. However, the time at which this article is written resulted in resumption of this activity :P.
+This is a live page and would contain my reviews of the books which I've read. I am open for book recommendations. I used to read books, when I was younger but discontinued due to other interests. However, the time at which this article is written resulted in resumption of this activity :P.
+
+### 2024
+- **Same as Ever** by *Morgan Housel*
+
+### 2023
+- **Atomic Habbits** by *James Clear*
+
 
 ### 2022
 

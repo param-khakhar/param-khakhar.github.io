@@ -3,15 +3,17 @@ title: Param Khakhar
 layout: page
 ---
 
-I am a Computer Science and Engineering Junior Undergrad currently studying at the Indian Institution of Technology, Delhi. Being a CSE student, I have been introduced to several interesting areas where CS is used but personally, I like designing real-world applications using algorithms and data structures. Other areas which I am interested but haven't explored much yet are finance, economics, history and biology.
+Hey there!
 
-The content of the articles would mainly be my experiences and other things which I found very interesting. You may find some CS articles wherein, I would write some stuff which is complex for me, in simple words, as an aid for me and might be for others too. There are different personal and professional goals which I had set earlier. I was able to achieve some and wasn't able to do so with the others, however, in the process of achieving my goals I did make several mistakes but with perseverance I did make it to the finish line. It might turn out that there are others as well who are pursuing goals similar to mine. If not a generic overview, I can definitely tell others about the mistakes which I made, and help them prevent doing that. The scenario is also true vice versa where I am pursuing a particular goal and I do look out for experiences of others. Well, I think it's the purpose of existence of life, and kind of similar to evolution. 
+Welcome to this corner of the web crafted by yours truly. Admittedly, things have been a bit quiet around here, but fear not – change is on the horizon!
 
-I am from Rajkot, Gujarat, India. My hobbies include playing sports such as soccer, cricket, badminton, and basketball. Apart from that I mainly spend time watching soccer. Manchester is Blue! I try to watch as many Man City games as possible in a season irregardless of what IST time are they taking place. It's about 7 years since I started actively following soccer and probably you can guess why I am a Mancunian. I just love the way they play. 
+Currently immersed in the world of quantitative trading post my computer science undergrad stint, my gaze is fixed on the activities at the Dalal Street.
 
-Apart from watching Man City play, I do listen to music. I don't fancy any particular genres as such but there are certain artists/bands such as Imagine Dragons, Ed Sheeran, Arijit Singh, Kishore Kumar which I like very much. Also the music I listen depends on my mood :P
+What can you expect here? Well, it's a mishmash of my experiences, musings on sports (cricket and football are my jam), navigating the intriguing world of stock markets, sharing the latest reads and podcast gems, and perhaps a sprinkle of my own whimsical takes on this wild ride we call life.
 
-I do like to watch movies, mainly action, sci-fi and comedies but am also enjoying rom-coms and family drama lately. I am not a trained dancer but like to dance whenever there's an opportunity :D. I also like to travel and visit new places, and the aim is to cover as much as possible!
+Join me as I unravel the intricacies of my journey, scribble down my thoughts, and throw in a few curveballs just for fun.
+
+Cheers
 
 <figure class="align-center">
   <a href="#"><img src="{{ '/images/IMG_20211227_133725.jpg' | absolute_url }}" alt=""></a>

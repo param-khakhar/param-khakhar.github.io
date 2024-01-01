@@ -1,201 +1,204 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-09T18:30:34+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Finding the Signal, in the Noise</title><subtitle>Param Khakhar</subtitle><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><entry><title type="html">What happens to your PC when you switch on the power button?</title><link href="http://localhost:4000/theory/operating%20system/boot/" rel="alternate" type="text/html" title="What happens to your PC when you switch on the power button?" /><published>2021-03-24T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/theory/operating%20system/boot</id><content type="html" xml:base="http://localhost:4000/theory/operating%20system/boot/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/fight.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-01T23:56:48+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Finding the Signal, in the Noise</title><subtitle>Opinions are Unsolicited!</subtitle><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><entry><title type="html">End of UG - Learnings</title><link href="http://localhost:4000/life/end-of-college-life/" rel="alternate" type="text/html" title="End of UG - Learnings" /><published>2022-04-29T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/life/end-of-college-life</id><content type="html" xml:base="http://localhost:4000/life/end-of-college-life/"><![CDATA[<p><img src="http://localhost:4000/images/learnings.png" alt="image-center" class="align-center" /></p>
 
-&lt;p&gt;Have you ever wondered what happens when you press the power button of your PC? Well, it does end up in a screen asking you for your credentials! But, what actually leads to this? Let’s find out!&lt;/p&gt;
+<p>Yet another post on learnings by a student who completed his UG, and gearing up for change in life. However, the experience which I had is statistically unique, and hopefully you’ll get to know something that you haven’t come across elsewhere. So yeah, here we go. (Although, there aren’t any guarantees that this was my final stint as a student, but at least I am done with my bachelors)</p>
 
-&lt;p&gt;We can divide this process into 6 main intermediate steps. These are:&lt;/p&gt;
+<h3 id="priorities">Priorities</h3>
 
-&lt;ol&gt;
-  &lt;li&gt;BIOS&lt;/li&gt;
-  &lt;li&gt;Master Boot Record (MBR)&lt;/li&gt;
-  &lt;li&gt;GRUB&lt;/li&gt;
-  &lt;li&gt;Kernel&lt;/li&gt;
-  &lt;li&gt;Init&lt;/li&gt;
-  &lt;li&gt;Run Level&lt;/li&gt;
-&lt;/ol&gt;
+<p>Personally, I am of the opinion that you should have an informal goal post for yourself when you start your college life, and you should review your time expenditure so that you are working towards your goal. However, if you are here for exploration, and in that case, your goal post changes, then it isn’t the end of the world, but you need to make peace with the opportunity costs associated, rather than stressing out for reasons such as your friends’ and colleagues’ achievements, expectations of others from you, etc. So priorities, although informal should be there in my honest opinion.</p>
 
-&lt;p&gt;What do these terms mean in the first place? Let’s find out that as well.&lt;/p&gt;
+<h3 id="peer-pressure-and-fomo-is-real">Peer Pressure and FOMO is Real</h3>
 
-&lt;h2 id=&quot;bios&quot;&gt;BIOS&lt;/h2&gt;
+<p>Believe it or not, (maybe even admit it or not) but this is out in the open! Personally speaking, there were times when I took decisions due to this and they were indeed sub-optimal, but fortunately the effects weren’t that significant. The main point here I want to convey is that one needs to recognize this, and if things are spiralling way out of control then mitigate it! This is where your own ownership, your own principles, ethics etc for your life come up.</p>
 
-&lt;p&gt;&lt;strong&gt;BIOS&lt;/strong&gt; stands for &lt;strong&gt;B&lt;/strong&gt;asic &lt;strong&gt;I&lt;/strong&gt;nput &lt;strong&gt;O&lt;/strong&gt;utput &lt;strong&gt;S&lt;/strong&gt;ystem, and it is a &lt;strong&gt;firmware&lt;/strong&gt;. Now, this is different from the usual hardware and software which you might have heard of. Firmware is a software which resides on a dedicated memory chip, which is close to the metal (hardware). Software is used for programs that reside on hard disks, and use the functionality of the Operating System, in order to interact with the hardware, but firmware on the other hand doesn’t need to do so. It directly accesses the hardware. An example of that would be your TV remote, which processes your inputs (button presses) to generate the corresponding infrared signals.&lt;/p&gt;
+<p>Fear of Missing Out (FOMO) is another such thing which can drain you mentally (for sure!) and perhaps physically too. It might indeed be difficult to ignore the popular opinion and go with the flow (obviously wisdom of crowds), but what I’d recommend is not to dwell in useless thoughts, killing your PrEcIoUs TiMe, ruining your efficiency and productivity.</p>
 
-&lt;p&gt;BIOS is one such firmware for our computer. It resides on a chip inside the computer’s &lt;strong&gt;motherboard&lt;/strong&gt;. A motherboard is a printed circuit board, which essentially connects all the computer hardware such as the RAM, hard drives, optical drives and the CPU. On pressing the power button, the BIOS runs what is known as &lt;strong&gt;POST&lt;/strong&gt;, which stands for &lt;strong&gt;P&lt;/strong&gt;ower &lt;strong&gt;O&lt;/strong&gt;n &lt;strong&gt;S&lt;/strong&gt;elf &lt;strong&gt;T&lt;/strong&gt;est. This is basically a check which is performed by the BIOS which ensures that whether all the hardware devices such as the monitor, keyboard, mouse along with storage devices, processor, memory,etc, are working correctly or not. If the test turns out to be unsuccessful, further steps don’t proceed, unless the problem is fixed. Doing so, the hardware kind of initializes the hardware for further use. It then proceeds to search and execute the bootloader.&lt;/p&gt;
+<h3 id="mental-time-and-space">Mental Time and Space</h3>
 
-&lt;p&gt;In CS jargon, the word &lt;strong&gt;booting&lt;/strong&gt; is used to denote the process of starting the computer. The &lt;strong&gt;bootloader&lt;/strong&gt; is a program which is responsible for loading the Operating System itself in the RAM. The bootloader is present on what is known as a &lt;strong&gt;bootable device&lt;/strong&gt;, now this could be a floppy disk, USB, hard disk etc. A bootable device is one which contains a sector (512 byte sized division), whose last two bytes contain the &lt;strong&gt;boot signature&lt;/strong&gt;. This is &lt;strong&gt;0x55&lt;/strong&gt; and &lt;strong&gt;0xAA&lt;/strong&gt;, which are represented in hex. The decimal counterparts are &lt;strong&gt;85&lt;/strong&gt; and &lt;strong&gt;170&lt;/strong&gt;, respectively. Such a sector containing the boot signature is known as the &lt;strong&gt;boot sector&lt;/strong&gt;. However, in order for bootloader to execute, it needs to be loaded onto the memory initially and then executed. This work is done by the BIOS and the &lt;em&gt;Master Boot Record&lt;/em&gt;.&lt;/p&gt;
+<p>The first time I heard about this, that really was a sad state for me back then. However, now in hindsight, when I do think about it is quite apt. Having thoughts about multiple things at the same time detoriates your productivity, drains your energy (don’t know how, but yes) and it was really hard for me to correct things, but fortunately I am experiencing tangible differences about this as compared to my earlier self. Focus (complete) on the task at hand is quintessential. I think it would really help if you are able to identify the different things which you think about during the working day, and hopefully eliminate the unnecessary ones.</p>
 
-&lt;h2 id=&quot;master-boot-record&quot;&gt;Master Boot Record&lt;/h2&gt;
+<h3 id="nature-and-karma">Nature and Karma</h3>
 
-&lt;p&gt;The Master Boot Record is a kind of boot sector which is the first sector of a disk. The BIOS loads the Master Boot Record from a disk. A particular setting of BIOS allows users to order the disks from which the MBR is to be loaded. Thus, the BIOS loads the MBR from the first device which contains the boot signature, as the boot signature may get corrupted.&lt;/p&gt;
+<p>Everything that happens to you, happens for your good (am still trying to convince myself about certain happenings!). This really helps, I ain’t sure how contested this theory is, but certainly it’d help you prevent quite some mental energy drain! And boy, it can really be difficult at times to convince yourself as the reasons may not be revealed immediately, although you should be able to get your answers in future. As I said earlier, there are some experiences which actually make me wonder, how much more the stars need to align for some things to happen, but here I am with my restricted worldview or sample space so to say, still wasting fractions of my mental energy about it, but there’s hope that, I’d master this skill someday.</p>
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Master-Boot-Record.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<p>Also, you should be comfortable to accept the fact that if someone’s objectively better than you at some thing, then it cannot be luck all the time. That individual would have devoted time and energy practising and mastering, which you wouldn’t have. Regression to the mean ensures that if you perform better than what was expected, you’d end up with inferior results elsewhere to ensure that your overall performance kind of averages out. So, work to improve your own mean, competiting with yourself instead of others. I agree this is easier said than done, and the system needs to be developed in a way that’d facilitate this, but it could also help you if you are conscious about this.</p>]]></content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Life" /><category term="Learnings, Realizations" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Stock Markets 101</title><link href="http://localhost:4000/stock%20markets/stock-markets-101/" rel="alternate" type="text/html" title="Stock Markets 101" /><published>2021-05-24T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/stock%20markets/stock-markets-101</id><content type="html" xml:base="http://localhost:4000/stock%20markets/stock-markets-101/"><![CDATA[<p><img src="http://localhost:4000/images/engineer_syllogism.png" alt="image-center" class="align-center" /></p>
 
-&lt;p&gt;The MBR comprises of three important components, which are:&lt;/p&gt;
+<p>This post would contain the definitions of several terms used in Finance and Stock Markets, which I learnt as an intro for my internship. These are mainly from the book, <em>Option Volatility and Princing: Advance Trading Strategies and Techniques</em> by Sheldon Natenberg. Let’s get started:</p>
 
-&lt;h3 id=&quot;partition-table&quot;&gt;Partition Table&lt;/h3&gt;
+<ul>
+  <li>
+    <p><strong>Spot</strong> or <strong>Cash Transaction</strong> : Two individuals have said to have entered into a spot if, one agrees two pay another cash, in return for something, ownership of land, raw materials, goods anything. Same holds for stock. Since, stock prices are always fluctuating, and as a result
+the stock prices may change during the time when the prices are agreed and when the payment is made followed by stock delivery. This period is known as the settlement period, and it is small enough to be considered this process as a cash transaction.</p>
+  </li>
+  <li>
+    <p><strong>Forward Contract</strong> : In a forward contract, the parties agree on the terms now, but the actual payment and the exchange of goods doesn’t take place
+until some later date, which is referred as the <em>maturity</em> or <em>expiration date</em>. Also, the party which would be receiving the cash would face loss of
+interest earnings, which won’t be there if the transaction gets completed now, and thereby a reasonable <em>forward price</em> might get negotiated between the
+parties.</p>
+  </li>
+</ul>
 
-&lt;p&gt;The partition table contains an index of upto 4 partitions of the disk. Note MBR, is a sector of a disk and it isn’t present on disks which aren’t partitioned (such as floppy disks). It occupies 64 bytes of space.&lt;/p&gt;
+<p>For the buyer, the advantages of a forward contract is to prevent the purchase in future at higher prices, and similarly, for the seller, the incentive is to prevent the selling of goods, at potentially lower prices in the future.</p>
 
-&lt;h3 id=&quot;bootstrap-code&quot;&gt;Bootstrap Code&lt;/h3&gt;
+<ul>
+  <li><strong>Futures Contract</strong> : An alternative reference for the <em>Forward Contract</em>, but here, there is an organized exchange as an entity. The contract specifications of a forward contract are standardized in order to facilitate trading. The exchange specifies the quantity and quality of goods to be delivered, the data and place of delivery, and method of payment. The exchange also guarantees integrity of the contract, i.e if the contract is defaulted either by the buyer or seller, then the exchange assumes the responsibility of fulfiling the terms of a forward contract.</li>
+</ul>
 
-&lt;p&gt;The &lt;em&gt;Primary Boot Loader&lt;/em&gt;, it occupies 446 Bytes of space. Now, 446 Bytes of space is small, very small, in order to load the entire OS. With such constraints, the primary boot loader can only load the next (secondary) bootloader, and execute it. The secondary bootloader would be present in one of the four partitions, and&lt;/p&gt;
+<p>The earliest futures exchanges enabled producers and users of physical commodities such as grains, precious metals, and energy products to protect themselves from price fluctuations. However, more recently, the exchanges have introduced futures contracts on financial instruments such as stocks, and stock indexes, interest-rate contracts, and foreign currencies. Physical commodities are traded, but not as much as these instruments.</p>
 
-&lt;h3 id=&quot;boot-signature&quot;&gt;Boot Signature:&lt;/h3&gt;
+<ul>
+  <li>
+    <p><strong>Commodity</strong> : A commodity is a basic good used in commerce that is interchangeable with other goods of the same type. Commodities are most often used as inputs in the production of other goods or services. The quality of commodity may differ slightly, but it is more or less uniform among all the producers. E.g. grains, gold, beef, oil, natural gas. Investors and Traders can buy and sell commodities directly in the spot (cash) market or via derivatives such as options and futures. Owning commodities in a broader portfolio is encouraged as a diversifier and a hedge against inflation. More info. available <a href="https://www.investopedia.com/terms/c/commodity.asp" title="Commodities">here</a></p>
+  </li>
+  <li>
+    <p><strong>Option Contract</strong> : An Option contract gives a party the right to make a decision, at a later date. For this flexibility (aka call option), the party would have to make a separate payment as a compensation, irrespective of its decision to the seller. Similarly, the sellers can also have some flexibility (aka put option), which would enable them to sell at a later data, however some payment has to be made to the buyers as a compensation. A more concrete example of put option is insurance. The inherent logic is same for both the instruments. Options can also have an expiration date, which is the time period in which the buy/sell decision needs to be made. An exercise price could be specified as well, which would denote the different payments for different situations/events. Traders generate profits, by using probabilities to calculate the fair value of a contract, and ultimately selling the contract at a price higher than it’s fair value.</p>
+  </li>
+  <li>
+    <p><strong>Derivatives</strong>: It is a broad term which refers to contracts, whose values are derived from the value of some underlying asset. For example, higher the value of the asset for which the transaction would be made, higher would be the compensation. For this reason, <em>forwards</em>, <em>futures</em>, and <em>options</em> are referred to as derivatives.</p>
+  </li>
+</ul>
 
-&lt;p&gt;The famous 0x55AA, which takes 2 bytes and therefore, the&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Operating System" /><summary type="html"></summary></entry><entry><title type="html">Intern Season!</title><link href="http://localhost:4000/experience/interviews/intern-season/" rel="alternate" type="text/html" title="Intern Season!" /><published>2020-09-21T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/experience/interviews/intern-season</id><content type="html" xml:base="http://localhost:4000/experience/interviews/intern-season/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/interview.jpeg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<p>Profits can be generated either by buying at a low price, and selling at a higher price, and also (in stock markets), selling initially at a higher price (we don’t own in first place!) and then buying at a later instance.</p>
 
-&lt;p&gt;Well, an article after a really really long time, reason being, I was taking exams, making submissions, giving demos, all with a compressed schedule, and after which there were the interviews for the summer internship 2021. Finally, things have settled (momentarily :P) and now the new semester would resume from 28th of September, but boy, I must say, this period was unprecedented (at least for me), and unanticipated as well. This article is mainly for the interview procedure for the internships and how should one prepare (or perhaps some of the mistakes which I did, which you shouldn’t do) in order to clear all the rounds.&lt;/p&gt;
+<ul>
+  <li>
+    <p><strong>Opening Trade</strong> : Opening Trade is the first trade which takes place, irrespective of whether it’s a buy or sell transaction. This results in an <em>open position</em>. A subsequent trade, which reverses the initial trade is called a <em>closing trade</em>. <em>Open Interest</em> refers to the number of contracts which have been opened, and aren’t closed yet. It is widely used as a measure of trading activity. If a trader buys the contract, he is said to have long the contract. However, if the seller first sells a contract, then he is said to have short the contract. <em>Long</em> and <em>Short</em> describe positions, and are also used to describe the actions. A <em>long</em> position would result in debit (payment of money), whereas a short position would lead to credit. These terms might be misleading, as a trader who has acquired a long position would want the market to rise, whereas the trader who has acquired a short position would want the market to fall. But, a trader who is long a derivative, would want a market to fall. So, beware!</p>
+  </li>
+  <li>
+    <p><strong>Notional</strong> or <strong>Nominal Value</strong> of a <strong>Forward Contract</strong>: If a contract specifies delivery of 1000 units, at a price of $75 a unit, then the nominal value of that contract would be $7500. However, for contracts on stock indexes, the number of units isn’t clearly specified as it might be a fraction as well, therefore the exchange then introduces a <em>point value</em> which when multiplied by the price, results in the notional value of that contract.</p>
+  </li>
+  <li>
+    <p><strong>Unrealized</strong> and <strong>Realized Profit</strong> : Profits, which are on paper, i.e. you own some stocks, the stock price goes up, then you’d have an unrealized profit, it’s only when you sell the stocks, you’d have realized profit.</p>
+  </li>
+  <li>
+    <p><strong>Margin Deposit</strong> : This is a security amount collected by the exchange from the buyer and seller, in case any of them fails to fulfil the futures contract. It depends on the notional value of the contract as well as price fluctuations which may happen over time. The exchange also debits/credits amounts to the parties in order to maintain the price mentioned in the futures contract. These credits and debits are collectively known as <em>variation</em>.</p>
+  </li>
+  <li>
+    <p><strong>Stock -type Settlement</strong> : Suppose there is a transaction involving a trader buying stocks, and then selling them. The unrealized profits in this transaction can only be realized after the position is closed. During the open position, no credits/debits take place.</p>
+  </li>
+  <li>
+    <p><strong>Futures -type Settlement</strong> : When there are futures involved in transactions, their value might get changed due to the fluctuations in price. But since, the price is agreed in advance, the exchange is responsible for transfering funds from the party at profit at the moment to the party at loss. These payments take place either until the maturity period, or unless another transaction involving this futures contract takes place in other words, during open position. Such settlements are referred to as futures-type settlements.</p>
+  </li>
+</ul>]]></content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Stock Markets" /><category term="Stock Markets" /><summary type="html"><![CDATA[List of some commonly asked terms and definitions]]></summary></entry><entry><title type="html">Intern Season!</title><link href="http://localhost:4000/experience/interviews/intern-season/" rel="alternate" type="text/html" title="Intern Season!" /><published>2020-09-21T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/experience/interviews/intern-season</id><content type="html" xml:base="http://localhost:4000/experience/interviews/intern-season/"><![CDATA[<p><img src="http://localhost:4000/images/interview.jpeg" alt="image-center" class="align-center" /></p>
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;em&gt;I’m a computer science student (junior undergrad during the time at which this is written), and my applications was mainly for the companies who offered quant based roles, and software engineering (more formally systems engineering).&lt;/em&gt;&lt;/p&gt;
+<p>Well, an article after a really really long time, reason being, I was taking exams, making submissions, giving demos, all with a compressed schedule, and after which there were the interviews for the summer internship 2021. Finally, things have settled (momentarily :P) and now the new semester would resume from 28th of September, but boy, I must say, this period was unprecedented (at least for me), and unanticipated as well. This article is mainly for the interview procedure for the internships and how should one prepare (or perhaps some of the mistakes which I did, which you shouldn’t do) in order to clear all the rounds.</p>
 
-&lt;h3 id=&quot;round-1&quot;&gt;Round 1&lt;/h3&gt;
+<p><strong>Note:</strong> <em>I’m a computer science student (junior undergrad during the time at which this is written), and my applications was mainly for the companies who offered quant based roles, and software engineering (more formally systems engineering).</em></p>
 
-&lt;p&gt;For most of the companies I applied, the first round would be a programming round wherein you’d have to write programs for the questions provided within a given time limit. Here, time could be collective for all the questions or might be the case that the individual questions have particular time frame in which they need to be solved. They are conducted on platforms such as hackerrank, hackerearth, codeground, codesignal etc. The shortlisting criteria for the companies seems to be a mix of number of questions solved and your CV/GPA i.e if you have a high GPA and solve less questions might get you shortlisted. “Seems” because this is a hypothesis, and yes I have observed some exceptions as well. The recommended language is C++ which is because of its speed and the data structures in the STL. You should know IO operations, rounding operations (for floats), and other string related functions such as substring etc, and declaring and using various data structures. Some questions may involve processing with large numbers, and in that scenarios, I used to switch to Python3, but knowing how to do that with C++ is also a plus.&lt;/p&gt;
+<h3 id="round-1">Round 1</h3>
 
-&lt;p&gt;Talking about myself, this round got the better of me in majority of the companies, reason being, lack of sufficient practice. On asking some of the friends of mine who cracked this round more comfortably than me, one of the most common answer was that, “I had solved this particular question or a similar question earlier”. Now, in a timed exam, if you are spending time figuring out the various methods by which a particular question can be solved from scratch i.e amongst all possible different methods, then this won’t be a good idea. There are questions which can only be done using certain techniques and if you don’t know them, then there are very less chances of you writing the correct program. Well, you may pass some of the test cases, but not all!&lt;/p&gt;
+<p>For most of the companies I applied, the first round would be a programming round wherein you’d have to write programs for the questions provided within a given time limit. Here, time could be collective for all the questions or might be the case that the individual questions have particular time frame in which they need to be solved. They are conducted on platforms such as hackerrank, hackerearth, codeground, codesignal etc. The shortlisting criteria for the companies seems to be a mix of number of questions solved and your CV/GPA i.e if you have a high GPA and solve less questions might get you shortlisted. “Seems” because this is a hypothesis, and yes I have observed some exceptions as well. The recommended language is C++ which is because of its speed and the data structures in the STL. You should know IO operations, rounding operations (for floats), and other string related functions such as substring etc, and declaring and using various data structures. Some questions may involve processing with large numbers, and in that scenarios, I used to switch to Python3, but knowing how to do that with C++ is also a plus.</p>
 
-&lt;p&gt;The solution for this would be to practice questions online from platforms such as Geeks For &lt;a href=&quot;https://www.geeksforgeeks.org/&quot; title=&quot;visit GFG&quot;&gt;Geeks For Geeks&lt;/a&gt;, &lt;a href=&quot;https://www.interviewbit.com/&quot; title=&quot;visit IB&quot;&gt;InterviewBit&lt;/a&gt;, and &lt;a href=&quot;https://leetcode.com/&quot; title=&quot;visit LeetCode&quot;&gt;LeetCode&lt;/a&gt;. The main categories of the questions which I faced were:&lt;/p&gt;
+<p>Talking about myself, this round got the better of me in majority of the companies, reason being, lack of sufficient practice. On asking some of the friends of mine who cracked this round more comfortably than me, one of the most common answer was that, “I had solved this particular question or a similar question earlier”. Now, in a timed exam, if you are spending time figuring out the various methods by which a particular question can be solved from scratch i.e amongst all possible different methods, then this won’t be a good idea. There are questions which can only be done using certain techniques and if you don’t know them, then there are very less chances of you writing the correct program. Well, you may pass some of the test cases, but not all!</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Dynamic Programming&lt;/li&gt;
-  &lt;li&gt;Graphs&lt;/li&gt;
-  &lt;li&gt;Arrays&lt;/li&gt;
-  &lt;li&gt;Strings&lt;/li&gt;
-  &lt;li&gt;Trees&lt;/li&gt;
-&lt;/ul&gt;
+<p>The solution for this would be to practice questions online from platforms such as Geeks For <a href="https://www.geeksforgeeks.org/" title="visit GFG">Geeks For Geeks</a>, <a href="https://www.interviewbit.com/" title="visit IB">InterviewBit</a>, and <a href="https://leetcode.com/" title="visit LeetCode">LeetCode</a>. The main categories of the questions which I faced were:</p>
 
-&lt;p&gt;A particular way of doing these questions would be to sort them by the number of times they are asked in the interviews, for obvious reasons ;). Along with them, it’d be certainly better if you participate in live contests, where in you’d have to solve as many questions (out of a givne number of questions) as you can in a given time limit. &lt;a href=&quot;https://codeforces.com/&quot; title=&quot;Visit CF&quot;&gt;Codeforces&lt;/a&gt;, and &lt;a href=&quot;https://www.codechef.com/&quot; title=&quot;Visit Chef&quot;&gt;Codechef&lt;/a&gt; are two of the prominent ones, used by people out there. You need to be sincere and diligent while solving the practice questions. The above recommendations are after assuming that you’ve taken a formal data structures course. If you haven’t done that, do it ASAP, it is quintessential! If you participate in contests out there, and do good, this round would be bread and butter for you, if you simply practice the standard problems. So go start coding! Simply mugging up solutions won’t be a good idea, because in the interviews you’d be asked on how do you form the solution, so try to understand and make things clear. The feeling after understanding the solution or a particular algorithm is deeply satisfying for me, and amazing as well :).&lt;/p&gt;
+<ul>
+  <li>Dynamic Programming</li>
+  <li>Graphs</li>
+  <li>Arrays</li>
+  <li>Strings</li>
+  <li>Trees</li>
+</ul>
 
-&lt;h3 id=&quot;round-2---3&quot;&gt;Round 2 - 3&lt;/h3&gt;
+<p>A particular way of doing these questions would be to sort them by the number of times they are asked in the interviews, for obvious reasons ;). Along with them, it’d be certainly better if you participate in live contests, where in you’d have to solve as many questions (out of a givne number of questions) as you can in a given time limit. <a href="https://codeforces.com/" title="Visit CF">Codeforces</a>, and <a href="https://www.codechef.com/" title="Visit Chef">Codechef</a> are two of the prominent ones, used by people out there. You need to be sincere and diligent while solving the practice questions. The above recommendations are after assuming that you’ve taken a formal data structures course. If you haven’t done that, do it ASAP, it is quintessential! If you participate in contests out there, and do good, this round would be bread and butter for you, if you simply practice the standard problems. So go start coding! Simply mugging up solutions won’t be a good idea, because in the interviews you’d be asked on how do you form the solution, so try to understand and make things clear. The feeling after understanding the solution or a particular algorithm is deeply satisfying for me, and amazing as well :).</p>
 
-&lt;p&gt;If you clear round 1, which for me was not easy, then you’d be quizzed by some interviewers. The questions would normally revolve around the above mentioned topics along with data structures such as hash maps (the different implementations), trees, and some algorithmic questions involving two pointers etc. So, time to revise your Data Structures course notes! If you are applying for a quant based position, then you’d be asked some questions based on probability as well. A must-do compulsory source for these puzzles is &lt;a href=&quot;https://brainstellar.com/&quot; title=&quot;visit BS&quot;&gt;Brain Stellar&lt;/a&gt;, and we again have puzzles @ Geeks For Geeks. Solving them is fun :P. Along with these puzzles, you might be quizzed on typical probability questions involving random variables and expectation values, so you’d have to cover the probability basics from your probability course. Apart from this, interviewers tend to ask questions on the object oriented paradigm of programming as well, after all you being applying for an SDE role, should know it and their advantages over other paradigms. The title for this is round 2-3 because, you might be interviewed by 2 different interviewers over 2 different rounds. For one of my applications, it was probability and puzzles for the round 2, and some algorithmic questions in round 3.&lt;/p&gt;
+<h3 id="round-2---3">Round 2 - 3</h3>
 
-&lt;h3 id=&quot;round-4&quot;&gt;Round 4&lt;/h3&gt;
+<p>If you clear round 1, which for me was not easy, then you’d be quizzed by some interviewers. The questions would normally revolve around the above mentioned topics along with data structures such as hash maps (the different implementations), trees, and some algorithmic questions involving two pointers etc. So, time to revise your Data Structures course notes! If you are applying for a quant based position, then you’d be asked some questions based on probability as well. A must-do compulsory source for these puzzles is <a href="https://brainstellar.com/" title="visit BS">Brain Stellar</a>, and we again have puzzles @ Geeks For Geeks. Solving them is fun :P. Along with these puzzles, you might be quizzed on typical probability questions involving random variables and expectation values, so you’d have to cover the probability basics from your probability course. Apart from this, interviewers tend to ask questions on the object oriented paradigm of programming as well, after all you being applying for an SDE role, should know it and their advantages over other paradigms. The title for this is round 2-3 because, you might be interviewed by 2 different interviewers over 2 different rounds. For one of my applications, it was probability and puzzles for the round 2, and some algorithmic questions in round 3.</p>
 
-&lt;p&gt;This round is interviewed by the HR, wherein they check how you value their organization, what your moral values are, perhaps your ethics etc. I didn’t experience this round for my interviews so the only thing which I can tell is that be yourself and be confident.&lt;/p&gt;
+<h3 id="round-4">Round 4</h3>
 
-&lt;h3 id=&quot;other-remarks&quot;&gt;Other Remarks&lt;/h3&gt;
+<p>This round is interviewed by the HR, wherein they check how you value their organization, what your moral values are, perhaps your ethics etc. I didn’t experience this round for my interviews so the only thing which I can tell is that be yourself and be confident.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;I had stated this earlier, but again repeating this, start getting involved in competitive programming, if you haven’t started to do so. There are benefits in round 1 and round 2-3 as well.&lt;/li&gt;
-  &lt;li&gt;It is indeed good to do some projects as well, but one thing which I noticed is that they would matter when you’ve cleared round 1, and performed satisfactorily in round 2-3. If these conditions aren’t satisfied, then projects won’t matter much imo. If there are two people under consideration after clearing the rounds, then the company would go with the candidate who has done relevant projects or rather the one with a higher GPA.&lt;/li&gt;
-  &lt;li&gt;Another particular thing which you should practice is to precisely explaining the solution, verbally. This would matter as you’d verbally engage with the interviewers. You may get rejected for your inability to explain the anwer to your interviewer irrespective of the fact that you know the solution.&lt;/li&gt;
-  &lt;li&gt;You should mention the time and space complexities of any algorithm which you explaing to your interviewer. Instead of directly jumping to think about the efficient/desired solution, you may choose to state the Brute Force solution (it’d help in case you aren’t able to formulate the efficient solution :P).&lt;/li&gt;
-  &lt;li&gt;It might be a case that instead of the final answer, the interviewer is interested in your thinking procedure, in other words the approach which you are using to solve the problem, and the steps which you are taking to reach to the solution. It is a good habit to let your interviewers know about the method which you are thinking and why.&lt;/li&gt;
-  &lt;li&gt;If you’re stuck, then you can ask for some hints i.e directions in which you should think for the solution.&lt;/li&gt;
-  &lt;li&gt;Stay confident during the interview, be attentive, and have a good sleep. It’s okay to have a bad interview, but stressing out over it isn’t good. Well, after all it isn’t the end of the world or end of your opportunities! Learn from your experience and move on, I’d suggest.&lt;/li&gt;
-  &lt;li&gt;You should know your CV inside out! Yes, you would be quizzed on it, and your inability to answer the questions on your projects could result in a bad impression. For projects you maybe asked on their motivation, challenges faced by you, and future improvisations.&lt;/li&gt;
-&lt;/ul&gt;
+<h3 id="other-remarks">Other Remarks</h3>
 
-&lt;p&gt;Happy Interviewing!&lt;/p&gt;
+<ul>
+  <li>I had stated this earlier, but again repeating this, start getting involved in competitive programming, if you haven’t started to do so. There are benefits in round 1 and round 2-3 as well.</li>
+  <li>It is indeed good to do some projects as well, but one thing which I noticed is that they would matter when you’ve cleared round 1, and performed satisfactorily in round 2-3. If these conditions aren’t satisfied, then projects won’t matter much imo. If there are two people under consideration after clearing the rounds, then the company would go with the candidate who has done relevant projects or rather the one with a higher GPA.</li>
+  <li>Another particular thing which you should practice is to precisely explaining the solution, verbally. This would matter as you’d verbally engage with the interviewers. You may get rejected for your inability to explain the anwer to your interviewer irrespective of the fact that you know the solution.</li>
+  <li>You should mention the time and space complexities of any algorithm which you explaing to your interviewer. Instead of directly jumping to think about the efficient/desired solution, you may choose to state the Brute Force solution (it’d help in case you aren’t able to formulate the efficient solution :P).</li>
+  <li>It might be a case that instead of the final answer, the interviewer is interested in your thinking procedure, in other words the approach which you are using to solve the problem, and the steps which you are taking to reach to the solution. It is a good habit to let your interviewers know about the method which you are thinking and why.</li>
+  <li>If you’re stuck, then you can ask for some hints i.e directions in which you should think for the solution.</li>
+  <li>Stay confident during the interview, be attentive, and have a good sleep. It’s okay to have a bad interview, but stressing out over it isn’t good. Well, after all it isn’t the end of the world or end of your opportunities! Learn from your experience and move on, I’d suggest.</li>
+  <li>You should know your CV inside out! Yes, you would be quizzed on it, and your inability to answer the questions on your projects could result in a bad impression. For projects you maybe asked on their motivation, challenges faced by you, and future improvisations.</li>
+</ul>
 
-&lt;p&gt;All the points mentioned above, have been assembled from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Interview Preparation" /><summary type="html"></summary></entry><entry><title type="html">My Learning Track</title><link href="http://localhost:4000/data%20science/learn-data-science/" rel="alternate" type="text/html" title="My Learning Track" /><published>2020-06-08T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/data%20science/learn-data-science</id><content type="html" xml:base="http://localhost:4000/data%20science/learn-data-science/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/unsupervised.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<p>Happy Interviewing!</p>
 
-&lt;p&gt;Apart from my univesity curriculum, I do spend time learning stuff online in my free time. However, there are countless resources which you can get online, be it online courses, videos, podcasts, blogs etc which’d help you to learn stuff. In this article, I’d mention the resources which I used along with their concise description. This article is indeed a live one, and would get timely updates after completing new milestones :). As of now, the list mainly consists of the data science related stuff.&lt;/p&gt;
+<p>All the points mentioned above, have been assembled from an ensemble of experiences of my seniors, my colleagues, and me as well. So a big shout out to them as well! For even more resources, my DMs are open!</p>]]></content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Experience" /><category term="Interviews" /><category term="Interview Preparation" /><summary type="html"><![CDATA[My experience as an interviewee.]]></summary></entry><entry><title type="html">Statistics is indeed paradoxical!</title><link href="http://localhost:4000/statistics/paradox-stats/" rel="alternate" type="text/html" title="Statistics is indeed paradoxical!" /><published>2020-05-15T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/paradox-stats</id><content type="html" xml:base="http://localhost:4000/statistics/paradox-stats/"><![CDATA[<p><img src="http://localhost:4000/images/fastest_growing.png" alt="image-center" class="align-center" /></p>
 
-&lt;h3 id=&quot;online-courses-&quot;&gt;Online Courses:-&lt;/h3&gt;
+<p>Consider the following situation,</p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.elementsofai.com/&quot; title=&quot;Course Home Page&quot;&gt;Elements of AI&lt;/a&gt;&lt;/strong&gt;:
-This was my first introduction to this new world where I came to know about Artificial Intelligence, Machine Learning, Deep Learning, Alan Turing, etc. It is a completely theoretical course and the main purpose is to get you acquainted with these buzz words. There are mentions about how this field evolved with time and contributions of some prominent researchers as well. There is a high level desciptions about &lt;em&gt;Neural Networks&lt;/em&gt; and also about their cool applications. Do go for it if you don’t have in-depth idea about what these buzzwords mean and are curios to know them.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.coursera.org/learn/machine-learning&quot; title=&quot;Course Home Page&quot;&gt;Machine Learning&lt;/a&gt;&lt;/strong&gt;:
-Arguably one of the most famous course on Machine Learning out there on the internet. This can be attributed to the popularity of the instructor Andrew Ng, a world class AI researcher. This course is a subtle introduction to Machine Learning, and introduces about the algorithms which facilitate predictions. This course has assignments as well as quizzes which in my opinion are on the easier side, but nevertheless they are worth your time. This course is for those who aren’t familiar with Machine Learning algorithms as such. If you aren’t in this category than you may choose not to do it and proceed for the next one. Another reason for the popularity of this course is the pre-requisites is Introductory Linear Algebra and some knowledge about algorithms. However, this course uses Octave/Matlab as languages for Programming Assignments contrary to Python and R which are the languages which are mostly used.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://cs109.github.io/2015/index.html&quot; title=&quot;Course Home Page&quot;&gt;CS109-Data Science&lt;/a&gt;&lt;/strong&gt;:
-One of the not-so-popular online course but, believe me it is one of the best. The reasons why I am saying this is that it covers everything, you should have knowledge about if you want to become a data scientist someday. You’d learn Data Scraping, Data Processing, Data Visualization, Machine Learning, and Storytelling! The homework assignments are awesome projects on real datasets. However, the prereqs for this is Probability and Statistics which’d be covered in any intro-level course in your college. All the assignments use Python 2, and you’d have to figure out the Python3 equivalent, but it shouldn’t be too much of an issue. I highly recommend going for this if you satisfy the pre-reqs.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.coursera.org/learn/intro-to-deep-learning/home/welcome&quot; title=&quot;Course Home Page&quot;&gt;Introduction to Deep Learning&lt;/a&gt;&lt;/strong&gt;:
-It’s an okayish course and it briefly introduces the various neural net architectures. The framework used for assignments is Tensorflow, and Keras. I found their explanation of backpropogation very cool. Their explanation of TensorFlow as a framework is also very lucid and intuitive. In rest of the course, they discuss CNNs, LSTMs, RNNs, Autoencoders, etc. Some of the assignments can be difficult for those who are using TensorFlow for the first time or using Neural Nets for the first time.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.coursera.org/learn/competitive-data-science/home/welcome&quot; title=&quot;Course Home Page&quot;&gt;How to Win a Data Science Competition&lt;/a&gt;&lt;/strong&gt;:
-This is an amazing course, targeted for those who know how to use Machine Learning in Python, but they want to hone their skills. What I mean is simply using model.fit() followed by model.predict() isn’t sufficient. There are several other aspects such as Feature Engineering, Hyperparameter tuning, Model Selection, Validation Strategies, etc which one needs to take care of while developing models which generalize well. This course covers all these other aspects. To be honest, this course is mainly for people who want to compete in data science competitions and get good scores but it’d certainly help you become a better data scientist at your workplace.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p>You are looking for a hospital for the treatment of someone elderly in your family. There are two prominent choices available, Hospital A and Hospital B. For the last 1000 patients those which got treated from Hospital A had a survival rate of 90% whereas those which got treated from Hospital B had survival rate of 80%. So, Hospital A seems to be a clear winner right? Well it may not be the case.</p>
 
-&lt;h3 id=&quot;blogs-to-follow&quot;&gt;Blogs to Follow:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://towardsdatascience.com/&quot; title=&quot;Home Page&quot;&gt;Towards Data Science&lt;/a&gt;&lt;/strong&gt;: If you’re a newbie in this field and don’t understand any particular concept related to probability, statistic, machine learning, etc. this is the place where you’d most probably find a blog post related to that. The writers also write about new cool applications and what it feels to work in the industry.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://machinelearningmastery.com/&quot; title=&quot;Home Page&quot;&gt;Machine Learning Mastery - By Jason Brownlie Ph.D&lt;/a&gt;&lt;/strong&gt;: Here you’d find many relevant blog posts for Machine Learning.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kaggle.com/discussion&quot;&gt;Kaggle Discussion&lt;/a&gt;&lt;/strong&gt;: Kaggle organizes data science competitions but apart from that it has an excellent forum for discussing the advances in this area. You’d be able to learn new tricks and hacks from the experts and also interact with them.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Statistics is indeed paradoxical!</title><link href="http://localhost:4000/statistics/paradox-stats/" rel="alternate" type="text/html" title="Statistics is indeed paradoxical!" /><published>2020-05-15T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/paradox-stats</id><content type="html" xml:base="http://localhost:4000/statistics/paradox-stats/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/fastest_growing.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<p>One shouldn’t ignore the fact that all the patients which arrive at the hospital do not have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:</p>
 
-&lt;p&gt;Consider the following situation,&lt;/p&gt;
+<ul>
+  <li>Hospital A - 900 in good health out of which 830 survived, 100 in poor health out of which 30 survived</li>
+  <li>Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survived</li>
+</ul>
 
-&lt;p&gt;You are looking for a hospital for the treatment of someone elderly in your family. There are two prominent choices available, Hospital A and Hospital B. For the last 1000 patients those which got treated from Hospital A had a survival rate of 90% whereas those which got treated from Hospital B had survival rate of 80%. So, Hospital A seems to be a clear winner right? Well it may not be the case.&lt;/p&gt;
+<p>Interestingly, the survival rates of the patients having poor health is 52.5% in B and 30% in A. Amazingly, the survival rates of the patients having good health for Hospital A is 92.22 % whereas the same for Hospital B is 98.33%. Turns out that Hospital B is a clear winner and that too convincingly.</p>
 
-&lt;p&gt;One shouldn’t ignore the fact that all the patients which arrive at the hospital do not have same health level. For example we can classify the patients having good health and bad health repectively. Let the number of survival rates of the patients considering the above classification scheme be as follows:&lt;/p&gt;
+<p>The above is an example of Simpson’s paradox which occurs when the aggregated data hides a conditional variable, which is hidden additional factor that significantly influences results.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Hospital A - 900 in good health out of which 830 survived, 100 in poor health out of which 30 survived&lt;/li&gt;
-  &lt;li&gt;Hospital B - 600 in good health out of which 590 survived, 400 in poor health out of which 210 survived&lt;/li&gt;
-&lt;/ul&gt;
+<blockquote>
+  <p>Statistics are persuasive. So much so that people, organizations, and whole countries base some of their most important decisions on organized data. But any set of statistics might have something lurking inside it that can turn the results completely upside down.</p>
 
-&lt;p&gt;Interestingly, the survival rates of the patients having poor health is 52.5% in B and 30% in A. Amazingly, the survival rates of the patients having good health for Hospital A is 92.22 % whereas the same for Hospital B is 98.33%. Turns out that Hospital B is a clear winner and that too convincingly.&lt;/p&gt;
+  <footer><strong>Mark Liddel</strong> &mdash; Ted-Ed, How statistics can be misleading</footer>
+</blockquote>
 
-&lt;p&gt;The above is an example of Simpson’s paradox which occurs when the aggregated data hides a conditional variable, which is hidden additional factor that significantly influences results.&lt;/p&gt;
+<p>Simpson’s paradox isn’t hypothetical. You can look at Mark Liddel’s <a href="https://www.youtube.com/watch?v=sxYrzzy3cq8" title="Video">video</a> for more examples.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Statistics are persuasive. So much so that people, organizations, and whole countries base some of their most important decisions on organized data. But any set of statistics might have something lurking inside it that can turn the results completely upside down.&lt;/p&gt;
+<p>The above is one of the many things about statistics which I found very fascinating.</p>]]></content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Statistics" /><category term="Paradox" /><category term="Statistics" /><category term="Data Science" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Why is statistics such a fascinating subject?</title><link href="http://localhost:4000/statistics/intro-stats/" rel="alternate" type="text/html" title="Why is statistics such a fascinating subject?" /><published>2020-05-14T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/intro-stats</id><content type="html" xml:base="http://localhost:4000/statistics/intro-stats/"><![CDATA[<p><img src="http://localhost:4000/images/convincing%20xkcd.png" alt="image-center" class="align-center" /></p>
 
-  &lt;footer&gt;&lt;strong&gt;Mark Liddel&lt;/strong&gt; &amp;mdash; Ted-Ed, How statistics can be misleading&lt;/footer&gt;
-&lt;/blockquote&gt;
+<p>The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I’d write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people.</p>
 
-&lt;p&gt;Simpson’s paradox isn’t hypothetical. You can look at Mark Liddel’s &lt;a href=&quot;https://www.youtube.com/watch?v=sxYrzzy3cq8&quot; title=&quot;Video&quot;&gt;video&lt;/a&gt; for more examples.&lt;/p&gt;
+<p>Statistical thinking can certainly help you in making wiser decisions, understand and judge the trustworthyness of different personel, and help you become better citizens, consumers, voters, etc. Even in academics, most subjects involve the study of chance events and as a result you need to know the knowledge of statistics. So even it’d help you become better academicians!</p>
 
-&lt;p&gt;The above is one of the many things about statistics which I found very fascinating.&lt;/p&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Paradox" /><category term="Statistics" /><category term="Data Science" /><summary type="html"></summary></entry><entry><title type="html">Why is statistics such a fascinating subject?</title><link href="http://localhost:4000/statistics/intro-stats/" rel="alternate" type="text/html" title="Why is statistics such a fascinating subject?" /><published>2020-05-14T00:00:00+05:30</published><updated>2018-02-06T02:49:55+05:30</updated><id>http://localhost:4000/statistics/intro-stats</id><content type="html" xml:base="http://localhost:4000/statistics/intro-stats/">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/convincing%20xkcd.png&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+<blockquote>
+  <p>Being a statistician [means] you get to play in everyone’s backyard.</p>
 
-&lt;p&gt;The world is certainly uncertain, and statistics is a subject to estimate this uncertainity! Yes, no other field of study can deal with such uncertainity, there are always certain assumptions. In this and some of the following articles I’d write about some of the aspects of statistics the knowledge of whose can very much help to better understand the numbers, claims, etc. which are made by people.&lt;/p&gt;
+  <footer><strong>John Turkey</strong></footer>
+</blockquote>
 
-&lt;p&gt;Statistical thinking can certainly help you in making wiser decisions, understand and judge the trustworthyness of different personel, and help you become better citizens, consumers, voters, etc. Even in academics, most subjects involve the study of chance events and as a result you need to know the knowledge of statistics. So even it’d help you become better academicians!&lt;/p&gt;
+<p>In order to better understand the process of statistical analysis, suppose that you yourself are a statistician at a company and you have collected data for the number of employees that are absent on a given day in a company. You have collected the daily records for over 30 weeks. Now probably you would look for some patterns and even before that wonder what patterns might even exist. A simple organization such as grouping the number of absentees by days of the week may give you some insights. Doing that you notice that Mondays and Fridays are the days which have higher number of employees absent then the other days on average and also you can group the days of the week in two with Monday and Friday in one and the rest all weekdays in the other. Creating different summaries of the data is known as <strong>statistical description</strong>. You may also use certain visualization techniques in order to discover some pattern.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Being a statistician [means] you get to play in everyone’s backyard.&lt;/p&gt;
+<p>Other than methods used for statistical description, there are also methods which the statisticians can use in order to generalize the detected patterns in a wider setting. This is known as <strong>statistical inference</strong>. Now what makes this valueable is that this comes with an objective measure of the <em>likelihood</em> that it is correct. However, we can never by sure that a generalization is correct, because uncertainity is so pervasive in the real world.</p>
 
-  &lt;footer&gt;&lt;strong&gt;John Turkey&lt;/strong&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
+<p>Now returning to your original task, your hypothesis of higher absence rates on Monday and Fridays can statistically tested and we can also obtain the uncertainity of it being correct. The alternate hypothesis would then be that the data obtained is just by chance and no such concrete generalization exists. Interestingly, the wider setting in the generalization can also refer to future and in a way we can predict future! (with some uncertainity). If your hypothesis turns out to be correct you can certainly notify the board and go home.</p>
 
-&lt;p&gt;In order to better understand the process of statistical analysis, suppose that you yourself are a statistician at a company and you have collected data for the number of employees that are absent on a given day in a company. You have collected the daily records for over 30 weeks. Now probably you would look for some patterns and even before that wonder what patterns might even exist. A simple organization such as grouping the number of absentees by days of the week may give you some insights. Doing that you notice that Mondays and Fridays are the days which have higher number of employees absent then the other days on average and also you can group the days of the week in two with Monday and Friday in one and the rest all weekdays in the other. Creating different summaries of the data is known as &lt;strong&gt;statistical description&lt;/strong&gt;. You may also use certain visualization techniques in order to discover some pattern.&lt;/p&gt;
+<p>Now, all the above stuff may seem to be paradoxical as what are the rules which you use to make predictions about the future given the uncertainities of the world. The thing is that statistics involves logic rules which are different from the traditional mathematics. Essentially, <em>statistical description</em> and <em>statistical inference</em> are the workday roles of statistics.</p>
 
-&lt;p&gt;Other than methods used for statistical description, there are also methods which the statisticians can use in order to generalize the detected patterns in a wider setting. This is known as &lt;strong&gt;statistical inference&lt;/strong&gt;. Now what makes this valueable is that this comes with an objective measure of the &lt;em&gt;likelihood&lt;/em&gt; that it is correct. However, we can never by sure that a generalization is correct, because uncertainity is so pervasive in the real world.&lt;/p&gt;
+<p>There are several other byways, some of which are also aren’t discussed in the curriculum such as:</p>
 
-&lt;p&gt;Now returning to your original task, your hypothesis of higher absence rates on Monday and Fridays can statistically tested and we can also obtain the uncertainity of it being correct. The alternate hypothesis would then be that the data obtained is just by chance and no such concrete generalization exists. Interestingly, the wider setting in the generalization can also refer to future and in a way we can predict future! (with some uncertainity). If your hypothesis turns out to be correct you can certainly notify the board and go home.&lt;/p&gt;
+<ul>
+  <li>Paradoxes of probability and statistics</li>
+  <li>Problems of using standard statistical techniques in non-standard situations.</li>
+  <li>Social Impact of Statistics</li>
+</ul>
 
-&lt;p&gt;Now, all the above stuff may seem to be paradoxical as what are the rules which you use to make predictions about the future given the uncertainities of the world. The thing is that statistics involves logic rules which are different from the traditional mathematics. Essentially, &lt;em&gt;statistical description&lt;/em&gt; and &lt;em&gt;statistical inference&lt;/em&gt; are the workday roles of statistics.&lt;/p&gt;
+<h2 id="how-statistics-is-different-from-mathematics">How Statistics is different from Mathematics?</h2>
 
-&lt;p&gt;There are several other byways, some of which are also aren’t discussed in the curriculum such as:&lt;/p&gt;
+<ul>
+  <li>
+    <p>Turns out that statisticians solve the problem in a real life setting in contrast to mathematicians. Mathematical problems, abstracts out from all the uncertainity and fthen proceeds to report a unique solution. However, when we incorporate chances to play their role, the solution derived from maths is simply an approximation from the true value. Statisticians also calculate an answer and that too is an approximation but with the answer, a statistician also reports an uncertainity. Thus, the answer would be good only if the uncertainity is less.</p>
+  </li>
+  <li>
+    <p>Mathematicians also need data and they plug it in some general theorem and hence obtain the result. However, statisticians proceed the other way round. They are given a particular sample of information (from the entire population) and their job is to estimate the population from the obtained sample. Thus, for mathematicians data refers to the values of non-random variables whereas for statisticians, data refers to the values of random variables. Consequently, statisticians would have to take care about erroneous data which might be present in the example which they have.</p>
+  </li>
+</ul>
 
-&lt;ul&gt;
-  &lt;li&gt;Paradoxes of probability and statistics&lt;/li&gt;
-  &lt;li&gt;Problems of using standard statistical techniques in non-standard situations.&lt;/li&gt;
-  &lt;li&gt;Social Impact of Statistics&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="trivia">Trivia</h2>
 
-&lt;h2 id=&quot;how-statistics-is-different-from-mathematics&quot;&gt;How Statistics is different from Mathematics?&lt;/h2&gt;
+<p><strong>Consider 3 cities A,B and C. The annual average temperatures (in degree Celsius) are 11.7, 25.2 and 27 respectively. Can we infer from this information that B is twice as hot as A in a year? Also would it be correct to say that B and C have similar temperatures throughout the year?</strong></p>
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Turns out that statisticians solve the problem in a real life setting in contrast to mathematicians. Mathematical problems, abstracts out from all the uncertainity and fthen proceeds to report a unique solution. However, when we incorporate chances to play their role, the solution derived from maths is simply an approximation from the true value. Statisticians also calculate an answer and that too is an approximation but with the answer, a statistician also reports an uncertainity. Thus, the answer would be good only if the uncertainity is less.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mathematicians also need data and they plug it in some general theorem and hence obtain the result. However, statisticians proceed the other way round. They are given a particular sample of information (from the entire population) and their job is to estimate the population from the obtained sample. Thus, for mathematicians data refers to the values of non-random variables whereas for statisticians, data refers to the values of random variables. Consequently, statisticians would have to take care about erroneous data which might be present in the example which they have.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<p>Well, No. The thing is we can’t and we shouldn’t limit ourselves to the comparisons of the annual means. It may turn out that during some months B is slightly hotter than A but that trend is not preserved throughout the year. Also it might turn out that B and C have significantly different temperatures throughout a particular month.</p>
 
-&lt;h2 id=&quot;trivia&quot;&gt;Trivia&lt;/h2&gt;
+<p>It often turns out that the byways are often more interesting then the stuff discussed in the curriculum, so stay tuned.</p>
 
-&lt;p&gt;&lt;strong&gt;Consider 3 cities A,B and C. The annual average temperatures (in degree Celsius) are 11.7, 25.2 and 27 respectively. Can we infer from this information that B is twice as hot as A in a year? Also would it be correct to say that B and C have similar temperatures throughout the year?&lt;/strong&gt;&lt;/p&gt;
+<h1 id="reference">Reference</h1>
 
-&lt;p&gt;Well, No. The thing is we can’t and we shouldn’t limit ourselves to the comparisons of the annual means. It may turn out that during some months B is slightly hotter than A but that trend is not preserved throughout the year. Also it might turn out that B and C have significantly different temperatures throughout a particular month.&lt;/p&gt;
-
-&lt;p&gt;It often turns out that the byways are often more interesting then the stuff discussed in the curriculum, so stay tuned.&lt;/p&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A Panorama of Statistics&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Intro" /><category term="Statistics" /><summary type="html"></summary></entry></feed>
+<ul>
+  <li>A Panorama of Statistics</li>
+</ul>]]></content><author><name>Param Khakhar</name><email>paramkhakhar7@gmail.com</email></author><category term="Statistics" /><category term="Intro" /><category term="Statistics" /><summary type="html"><![CDATA[]]></summary></entry></feed>
