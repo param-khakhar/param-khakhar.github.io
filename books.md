@@ -7,10 +7,12 @@ This is a live page and would contain my reviews of the books which I've read. I
 
 ### 2024
 - **Same as Ever** by *Morgan Housel*
+	- Spot on analysis of the way how the world works. The author makes a brilliant case of why we'd be better of understanding the things which haven't changed since the history rather than forecasting newer things every now and then.
+	- I really like the way how the author explains his point by interesting stories and anecdotes from the past. This was also true for his previous book, the Psychology of Money.
 
 ### 2023
 - **Atomic Habbits** by *James Clear*
-
+	- Quite an insightful book about the basics of habits, how they are formed, how can use that process to get things down using habbits or so. 
 
 ### 2022
 
